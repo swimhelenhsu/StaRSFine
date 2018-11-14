@@ -31,10 +31,11 @@ In the Spring of 2015, the StaRS FInE sub-team dedicated themselves to finding m
 
 
  [**This formatting did not show an image for me**]
- <center> <img
+ <p align="center"> <img
  src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/FabricatedTestingSystem.png" width= "350">
 
- Figure 1 : The fabricated Testing System for StaRS FInE </center>
+Figure 1 : The fabricated Testing System for StaRS FInE
+</p>
 
 [**Try this format instead. Using a relative filepath can be good because it doesn't require connecting to the internet to view and as long as you don't change your file structure of the repository too much, it will always work**]
 
