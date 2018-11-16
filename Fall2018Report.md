@@ -108,9 +108,9 @@ The pipe filled with sand and water was slowly raised until the sand along the s
 ### Results and analysis
 ##### Test 1: Sand Flow Against Surface: Minimum Angle
 Ultimately, the three values recorded from the experiment, in degrees are as follows:
-Trial 1 | Trial 2 | Trial 3| Average
---- | --- | ---| ---
-26.9 | 26.4 | 26.2| 26.5
+| Trial 1 | Trial 2 | Trial 3 | Average |
+|---------|---------|---------|---------|
+| 26.9    | 26.4    | 26.2    | 26.5    |
 This demonstrates that the minimum angle at which the tree design wings must be from the horizontal is 26.5 degrees, very reasonable and accounted for in the OnShape design of the prototype.
 
 ### Conclusions
