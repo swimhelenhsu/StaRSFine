@@ -46,10 +46,10 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/InletPi
 </p>
 
 
-#####StaRS Filter Theory Spring 2018
+##### StaRS Filter Theory Spring 2018
 To understand the injection and extraction methods, it is important to also understand the methodology behind StaRS Filtration in general. Essentially, AguaClara use this filter because it is efficient in its ability to filter and backwash at the same rate. It is gravity driven and is “proven to consistently lower the effluent to below the US EPA standard of 0.3 NTU” (StaRS Filter Theory Wiki., 2018). Currently, the StaRS Filter theory team is aiming to test more about the efficiency of different sized sand particles, something the team may want to keep updated on during calculations and testing.
 
-#####Horizontal Filtration Spring 2018
+##### Horizontal Filtration Spring 2018
 From the research of the Horizontal filtration team, the team learns most about plate settlers and the team’s experience to combine the methods with those of the StaRS Filters. The design that they hoped to optimize included a vertical backwash flow and horizontal filtration method. This schema could be useful in understanding how the bed of sand is successfully and completely fluidized so that the filter is still functional. In our intention of future work, we noted exploring more about the failure flow rate for the “sand plugs” created during gravity exclusion. The report notes a relationship discovered between slight dissociation of sand particles from the exclusion zone boundaries and a high flow rate (O'Connor, C., Chao, C., & Galantino, C. ,2018, pp. 4).
 
 ### Methods
