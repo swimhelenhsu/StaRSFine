@@ -133,19 +133,15 @@ Using a fabrication protractor, the end of the pipe filled with sand and water w
 
 As for more details about the design in OnShape, it was constructed so that the structure could be configured with correct dimensions for later 3D printing. Each designs configurations are shown below.
 <p float="left"> <p align="center">
-  <img src="https://github.com/AguaClara/StaRSFine/blob/master/Images/FinalOnshape.png?raw=true" width="250" />
   <img src="https://github.com/AguaClara/StaRSFine/blob/master/Images/DesignConfigurations.png?raw=true" width="138" />
 
-
-<p align="center"> Figure 9: Original OnShape Design and Configurations
+<p align="center"> Figure 9: Original OnShape Design Configurations
 </p>
 
-<p float="left"> <p align="center">
-  <img src="https://github.com/AguaClara/StaRSFine/blob/master/Images/FinalCircular.png?raw=true" width="227" />
+<p align="center">
   <img src="https://github.com/AguaClara/StaRSFine/blob/master/Images/DesignConfigCircle.png?raw=true" width="140" />
-
-
-<p align="center"> Figure 10: Circular Design and Configurations
+  </p>
+<p align="center"> Figure 10: Circular Design Configurations
 </p>
 
 ### Works Cited
