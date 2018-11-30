@@ -1,5 +1,5 @@
 ### **StaRS FInE, Fall 2018**
-#### Lily Falk, Sam Hertle, Whitney Denison
+#### Lily Falk, Sam Hertle, Whitney Deniso
 #### 11/16/2018
 
 ### Abstract
