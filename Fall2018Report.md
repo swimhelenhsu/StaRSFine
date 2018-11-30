@@ -16,7 +16,7 @@ change
 8. Works Cited
 
 ### Introduction
-The StaRS FInE team was disbanded after the fall of 2015, but it has been brought back because of the importance and continued relevance of the team's task. The current design for the outlet pipes in StaRS filters can, and needs to be, significantly improved. The small slots get clogged with chemical deposits, and the most effective way to clean them is by pouring buckets of acid into the filters. Not only is the purchasing of these chemicals an extra expense, it is also inconvenient because plant flow must be diverted when this process happens. The team’s goal is to develop and test an outlet system that does not clog with chemical deposits and prevents sand escape. This involves characterizing the failure velocity of sand exclusion zones and determining failure time. Past teams failed because of issues with sand getting into their outlet pipe design during filtration. Encouragingly, they did develop designs that worked during backwash, the filtration velocity was just too great and the water effluent contained a great amount of sand. Because this problem occurs at the filtration outtake, the team must be very conscious of head loss and the major and minor losses coming from the outlet pipe and the design geometry. 
+The StaRS FInE team was disbanded after the fall of 2015, but it has been brought back because of the importance and continued relevance of the team's task. The current design for the outlet pipes in StaRS filters can, and needs to be, significantly improved. The small slots get clogged with chemical deposits, and the most effective way to clean them is by pouring buckets of acid into the filters. Not only is the purchasing of these chemicals an extra expense, it is also inconvenient because plant flow must be diverted when this process happens. The team’s goal is to develop and test an outlet system that does not clog with chemical deposits and prevents sand escape. This involves characterizing the failure velocity of sand exclusion zones and determining failure time. Past teams failed because of issues with sand getting into their outlet pipe design during filtration. Encouragingly, they did develop designs that worked during backwash, the filtration velocity was just too great and the water effluent contained a great amount of sand. Because this problem occurs at the filtration outtake, the team must be very conscious of head loss and the major and minor losses coming from the outlet pipe and the design geometry.
 
 The goals for this semester were to design a new outlet pipe that would not clog from chemical deposits, create a testable apparatus to see if this design could handle backwash and filtration. In the future, this apparatus will have to be tested with sand and water to find the failure velocity and what mode of failure must be guarded against, in other words, does the sand move up as a solid plug or do individual grains make their way through the outlet pipe when filtration speed gets too fast? This will be a task for a future team, but the pipe design is very promising so far.
 
@@ -206,6 +206,7 @@ As for more details about the design in Onshape, it was constructed so that the 
 <p align="center"> Figure 10: Circular Design Configurations
 </p>
 
+Our first experiment 
 
 ### Works Cited
 
