@@ -16,9 +16,9 @@ StaRS FInE is a critically important team because the team deals with one of the
 8. Works Cited
 
 ### Introduction
-The StaRS FInE team was disbanded after the fall of 2015, but it has been brought back because of the importance and continued relevance of the team's task. The current design for the outlet pipes in StaRS filters can, and needs to be, significantly improved. The small slots get clogged with chemical deposits, and the most effective way to clean them is by pouring buckets of acid into the filters. Not only is the purchasing of these chemicals an extra expense, it is also inconvenient because plant flow must be diverted when this process happens. The team’s goal is to develop and test an outlet system that does not clog with chemical deposits and prevents sand escape. This involves characterizing the failure velocity of sand exclusion zones and determining failure time. Past teams failed because of issues with sand getting into their outlet pipe design during filtration. Encouragingly, they did develop designs that worked during backwash, the filtration velocity was just too great and the water effluent contained a great amount of sand. Because this problem occurs at the filtration outtake, the team must be very conscious of head loss and the major and minor losses coming from the outlet pipe and the design geometry.
+The StaRS FInE team was disbanded after the fall of 2015, but it has been brought back because of the importance and continued relevance of the team's task. The current design for the outlet pipes in StaRS filters can, and needs to be, significantly improved. The small slots get clogged with chemical deposits, and the most effective way to clean them is by dumping [**pouring**] buckets of acid into the filters. Not only is the purchasing of these chemicals an extra expense, it is also inconvenient because plant flow must be diverted when this process happens. The team’s goal is to develop and test an outlet system that does not clog with chemical deposits and prevents sand escape. This involves characterizing the failure velocity of sand exclusion zones and determining failure time. Past teams failed because of issues with sand getting into their outlet pipe design during filtration. Encouragingly, they did develop designs that worked during backwash, the filtration velocity was just too great and the water effluent contained a great amount of sand. Because this problem occurs at the filtration outtake, the team must be very conscious of head loss and the major and minor losses coming from the outlet pipe and the design geometry.
 
-The goals for this semester were to design a new outlet pipe that would not clog from chemical deposits, create a testable apparatus to see if this design could handle backwash and filtration. In the future, this apparatus will have to be tested with sand and water to find the failure velocity and what mode of failure must be guarded against, in other words, does the sand move up as a solid plug or do individual grains make their way through the outlet pipe when filtration speed gets too fast? This will be a task for a future team, but the pipe design is very promising so far. 
+[**Introduce what the goals were for this semester as a way to outline the rest of the report**]
 
 
 
@@ -52,7 +52,7 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/InletPi
 To understand the injection and extraction methods, it is important to also understand the methodology behind StaRS Filtration in general. Essentially, AguaClara use this filter because it is efficient in its ability to filter and backwash at the same rate. It is gravity driven and is “proven to consistently lower the effluent to below the US EPA standard of 0.3 NTU” (StaRS Filter Theory Wiki., 2018). Currently, the StaRS Filter theory team is aiming to test more about the efficiency of different sized sand particles, something the team may want to keep updated on during calculations and testing.
 
 ##### Horizontal Filtration Spring 2018
-From the research of the Horizontal filtration team, the team learns most about plate settlers and the team’s experience to combine the methods with those of the StaRS Filters. The design that they hoped to optimize included a vertical backwash flow and horizontal filtration method. This schema could be useful in understanding how the bed of sand is successfully and completely fluidized so that the filter is still functional. In the intention of future work, it is important to explore more about the failure flow rate for the “sand plugs” created during gravity exclusion. The report notes a relationship discovered between slight dissociation of sand particles from the exclusion zone boundaries and a high flow rate (O'Connor, C., Chao, C., & Galantino, C. ,2018, pp. 4).
+From the research of the Horizontal filtration team, the team learns most about plate settlers and the team’s experience to combine the methods with those of the StaRS Filters. The design that they hoped to optimize included a vertical backwash flow and horizontal filtration method. This schema could be useful in understanding how the bed of sand is successfully and completely fluidized so that the filter is still functional. In the intention of future work, we noted exploring more about the failure flow rate for the “sand plugs” created during gravity exclusion. The report notes a relationship discovered between slight dissociation of sand particles from the exclusion zone boundaries and a high flow rate (O'Connor, C., Chao, C., & Galantino, C. ,2018, pp. 4).
 
 ### Methods
 #### Experimental Apparatus
@@ -94,7 +94,7 @@ Testing the feasibility of the design prototype will be done in a 4-inch diamete
 
 [**I'm so into these Onshape desgins**]
 
-The apparatus was constructed to scale and will be further fabricated in the future. In the meantime, the 3D printed structure is [**was**] sanded to fit tightly into the pipe. The wings on the design were structured together by blocks of PVC and secured so the wings could withstand the force from filtration. In the future, holes will be drilled in the PVC pipe matching the “outlet pipes” on the 3D printed prototype and a structure will be built to secure the filter in the pipe base.
+The apparatus was constructed to scale and will be further fabricated in the future. In the meantime, the 3D printed structure was sanded to fit tightly into the pipe. The wings on the design were structured together by blocks of PVC and secured so the wings could withstand the force from filtration.
 
 <p float="left"> <p align="center">
   <img src="https://github.com/AguaClara/StaRSFine/blob/master/Images/3DPrinted.jpg?raw=true" width="250" />
@@ -108,6 +108,24 @@ src="https://github.com/AguaClara/StaRSFine/blob/master/Images/InsidePipe.jpg?ra
 
 <p align="center"> Figure 7 : 3D Printed model of design, sanded and fit inside 4-inch PVC pipe
 </p>
+
+The prototype was further fabricated by adding additional structures to support the top and bottom of the 3D Printed filter so it could withstand the force of flowing water from filtration. The simplest method in doing this was cutting a PCV pipe of smaller diameter for a flat surface that will not obstruct the flow of sand or water to and from the filter.
+
+<p float="left"> <p align="center">
+  <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/LowerStuctureSupport.jpg" width="250" />
+  <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/PipeHolesAndStructure.jpg" width="250" />
+
+<p align="center"> Figure 8 : The supports to be inserted in the PVC pipe and the structure including the lower support.
+</p>
+
+Caps were added to the pipe to ensure watertight quality for testing. Figure 9 demonstrates the hole drilling for the outlet tubes, which we ultimately inserted 3 small outlets to for extraction from the system. The lower cap included a water tap which was used for inlet flow.
+<p float="left"> <p align="center">
+  <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/HoleDrilling.jpg" width="150" />
+  <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/PipeHolesNoStructure.jpg" width="150" />
+  <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/OutletPipesGlue.jpg" width="150" />
+<p align="center"> Figure 9: The 4 Inch PVC pipe with drilled holes by structure of the filter and attached outlet tubes, glued for integrity of system. 
+</p>
+
 
 #### Procedure
 ##### Test 1: Sand Flow Against Surface: Minimum Angle
@@ -144,7 +162,7 @@ src="https://github.com/AguaClara/StaRSFine/blob/master/Images/Screen%20Shot%202
 <p align="center"> Figure 8: Fabrication Protractor
 </p>
 
-Using a fabrication protractor, the end of the pipe filled with sand and water was moved up slowly until all of the sand started moving down the pipe. This happened at a significant rate at 26.5 degrees, meaning that when there is no flow up through the branch, sand will settle to the bottom at this angle. The design needs to work during backwash and filtration, where the water is flowing quickly upward, so this angle is the smallest one possible. This is a useful constraint because in theory it limits the area under the branches. However, the initial design reaches the necessary area constraints at an angle of 30 degrees, so decreasing the angle past the minimum point is not a concern.
+Using a fabrication protractor, the end of the pipe filled with sand and water was moved up slowly until all of the sand started moving down the pipe. This happened at a significant rate at 26.5 degrees, meaning that when there is no flow up through the branch, sand will settle to the bottom at this angle. The design needs to work during backwash and filtration, where the water is flowing quickly upward, so this angle is the smallest one possible. This is a useful constraint because in theory it limits the area we can have under the branches. However, the initial design reaches the necessary area constraints at an angle of 30 degrees, so decreasing the angle past the minimum point is not a concern.
 
 As for more details about the design in Onshape, it was constructed so that the structure could be configured with correct dimensions for later 3D printing. Each designs configurations are shown below.
 <p float="left"> <p align="center">
