@@ -4,7 +4,7 @@
 
 ### Abstract
 StaRS FInE is a critically important team because the team deals with one of the last steps in the AguaClara process (filtration). The current outtake pipes are problematic because not only do they clog, the current method of cleaning them is with large quantities of acid. StaRS Fine's suggested remedy to combat this problem involves designing and implementing a “Christmas tree” design that uses the same gravity exclusion principles tested by Horizontal Filtration. Future tasks for this team are to fabricate and design this new pipe and experiment to find its failure velocity, but the team is confident in the future of the work.
-
+change
 ### Table of Contents
 1. Introduction
 2. Literature Review
