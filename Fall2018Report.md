@@ -142,7 +142,9 @@ The pipe filled with sand and water was slowly raised until the sand along the s
 ##### Test 2: Christmas Tree in a 4 Inch Pipe Model
 After fabricating our model filter system, the first test we conducted was designed to understand the feasibility of the watertight qualities and the injection and extraction of water without sand.
 
-To do so, we attached the inlet to the tap water from the drop down tap and the outlet pipes to a main tube connected to an extraction pump. Once the water was nearly above the level of the outlet holes, we began to run the extraction pump at a low rate. 
+To do so, we attached the inlet to the tap water from the drop down tap and the outlet pipes to a main tube connected to an extraction pump. Once the water was nearly above the level of the outlet holes, we began to run the extraction pump at a low rate.
+
+We adjusted the rate of the pump until water was flowing in and out at a steady rate. Eventually, we changed the inlet source of water to the sink in the lab so that there were less air bubbles coming from the source.
 
 ### Results and analysis
 ##### Test 1: Sand Flow Against Surface: Minimum Angle
@@ -157,6 +159,15 @@ This demonstrates that the minimum angle at which the tree design wings must be 
 [**I might recommend throwing a few extra degrees in to maintain a safety on the system, but this could be something talked over with Matt or Monroe. The implications of this angle could be thrown into a conclusions section as well. Think about what this might tell you about the system and what failures can happen one the larger and smaller side of this angle** ]
 
 ##### Test 2: Christmas Tree in a 4 Inch Pipe Model
+Our system was successful in its ability to hold, inject, and extract water. After adjusting the source of water to rid of air bubbles, there was still a small about of air flowing through the water in the PVC. This indicates a place where the system was not air tight. The lower cap was leaking water so we glued the perimeter where the PVC meets the cap edge.
+
+Another issue was the difficulty that the team had with keeping the system upright. To combat this, we developed a stand where the tap on the bottom of the PVC cap still had room to rest.
+
+<p align="center"> <img
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ApparatusStand.jpg" width= "350"> </p>
+
+<p align="center"> Figure 11: The stand developed to hold up the PVC system
+</p>
 
 ### Future Work
 Moving forward in the immediate future we [**pronouns**] plan to test the Christmas tree that just came out of the 3D printer. First we [**pronouns**] must find a way to insert the Christmas tree into a 4-inch pipe in a removable, but water-tight manner. We  [**pronouns**] will then use this setup with sand to test whether gravity exclusion acts in our [**pronouns**] favor.  The Horizontal Filtration team is working to test the failure velocity of sand in a pipe to see how fast we [**pronouns**] can move water in the pipe without sand moving to the outlet of the pipe. After we [**pronouns**] have conducted our [**pronouns**] own tests with our[**pronouns**] apparatus, and know the failure velocity from Horizontal Filtration’s tests, we [**pronouns**] will be able to run more tests incorporating the known failure velocity. In addition we [**pronouns**] will test the force from water hitting the wings of our [**pronouns**] christmas tree apparatus to ensure that the velocity of the water does not cause the wings to snap off.
