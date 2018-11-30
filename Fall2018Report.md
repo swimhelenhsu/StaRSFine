@@ -72,7 +72,7 @@ src="https://github.com/AguaClara/StaRSFine/blob/master/Images/SandVelocityAppar
 [**once the sand apparatus was tested what was measured? How was success determined? The amount of sand movement at a particular angle? The minimum angle for movement?   Ah! I see this is included below. In this section you can refer the reader to that section (or if you wanted to change the format a little to keep experiment set-up and results together that would be ok. )**]
 
 
-##### Test 2: Christmas Tree in a 4 Inch Pipe Prototype
+##### Test 2: Christmas Tree in a 4 Inch Pipe Model
 Testing the feasibility of the design prototype will be done in a 4-inch diameter clear PVC pipe. The design was constructed in OnShape and further edited to fit into a pipe, as shown below.
 
 <p float="left"> <p align="center">
@@ -119,17 +119,30 @@ The prototype was further fabricated by adding additional structures to support 
 </p>
 
 Caps were added to the pipe to ensure watertight quality for testing. Figure 9 demonstrates the hole drilling for the outlet tubes, which we ultimately inserted 3 small outlets to for extraction from the system. The lower cap included a water tap which was used for inlet flow.
+
 <p float="left"> <p align="center">
   <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/HoleDrilling.jpg" width="150" />
   <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/PipeHolesNoStructure.jpg" width="150" />
   <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/OutletPipesGlue.jpg" width="150" />
-<p align="center"> Figure 9: The 4 Inch PVC pipe with drilled holes by structure of the filter and attached outlet tubes, glued for integrity of system. 
+<p align="center"> Figure 9: The 4 Inch PVC pipe with drilled holes by structure of the filter and attached outlet tubes, glued for integrity of system.
 </p>
 
+Finally, the system was attached to a water inject and extraction system (pump) to conduct tests.
+
+<p float="left"> <p align="center">
+  <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/WholeApparatusSetup.jpg" width="400" />
+
+<p align="center"> Figure 10 : The Final Apparatus
+</p>
 
 #### Procedure
 ##### Test 1: Sand Flow Against Surface: Minimum Angle
 The pipe filled with sand and water was slowly raised until the sand along the surface of the pipe would fall at a continuous rate. Immediately, the angle was measured and the results were recorded.
+
+##### Test 2: Christmas Tree in a 4 Inch Pipe Model
+After fabricating our model filter system, the first test we conducted was designed to understand the feasibility of the watertight qualities and the injection and extraction of water without sand.
+
+To do so, we attached the inlet to the tap water from the drop down tap and the outlet pipes to a main tube connected to an extraction pump. Once the water was nearly above the level of the outlet holes, we began to run the extraction pump at a low rate. 
 
 ### Results and analysis
 ##### Test 1: Sand Flow Against Surface: Minimum Angle
@@ -142,6 +155,8 @@ Ultimately, the three values recorded from the experiment, in degrees are as fol
 This demonstrates that the minimum angle at which the tree design wings must be from the horizontal is 26.5 degrees, very reasonable and accounted for in the OnShape design of the prototype.
 
 [**I might recommend throwing a few extra degrees in to maintain a safety on the system, but this could be something talked over with Matt or Monroe. The implications of this angle could be thrown into a conclusions section as well. Think about what this might tell you about the system and what failures can happen one the larger and smaller side of this angle** ]
+
+##### Test 2: Christmas Tree in a 4 Inch Pipe Model
 
 ### Future Work
 Moving forward in the immediate future we [**pronouns**] plan to test the Christmas tree that just came out of the 3D printer. First we [**pronouns**] must find a way to insert the Christmas tree into a 4-inch pipe in a removable, but water-tight manner. We  [**pronouns**] will then use this setup with sand to test whether gravity exclusion acts in our [**pronouns**] favor.  The Horizontal Filtration team is working to test the failure velocity of sand in a pipe to see how fast we [**pronouns**] can move water in the pipe without sand moving to the outlet of the pipe. After we [**pronouns**] have conducted our [**pronouns**] own tests with our[**pronouns**] apparatus, and know the failure velocity from Horizontal Filtration’s tests, we [**pronouns**] will be able to run more tests incorporating the known failure velocity. In addition we [**pronouns**] will test the force from water hitting the wings of our [**pronouns**] christmas tree apparatus to ensure that the velocity of the water does not cause the wings to snap off.
