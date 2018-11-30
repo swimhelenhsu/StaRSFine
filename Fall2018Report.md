@@ -1,5 +1,5 @@
 ### **StaRS FInE, Fall 2018**
-#### Lily Falk, Sam Hertle, Whitney Deniso
+#### Lily Falk, Sam Hertle, Whitney Denison
 #### 11/16/2018
 
 ### Abstract
@@ -206,7 +206,7 @@ As for more details about the design in Onshape, it was constructed so that the 
 <p align="center"> Figure 10: Circular Design Configurations
 </p>
 
-Our first experiment 
+Our first experiment
 
 ### Works Cited
 
