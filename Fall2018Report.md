@@ -122,7 +122,7 @@ Caps were added to the pipe to ensure watertight quality for testing. Figure 9 d
 <p align="center"> Figure 9: The 4 Inch PVC pipe with drilled holes by structure of the filter and attached outlet tubes, glued for integrity of system.
 </p>
 
-Finally, the system was attached to a water inject and extraction system (pump) to conduct tests.
+Finally, the system was attached to a peristaltic pump to conduct tests.
 
 <p float="left"> <p align="center">
   <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/WholeApparatusSetup.jpg" width="400" />
@@ -137,7 +137,7 @@ The pipe filled with sand and water was slowly raised until the sand along the s
 ##### Test 2: Christmas Tree in a 4 Inch Pipe Model
 After fabricating our model filter system, the first test we conducted was designed to understand the feasibility of the watertight qualities and the injection and extraction of water without sand.
 
-To do so, we attached the inlet to the tap water from the drop down tap and the outlet pipes to a main tube connected to an extraction pump. Once the water was nearly above the level of the outlet holes, we began to run the extraction pump at a low rate.
+To do so, we attached the inlet to the tap water from the drop down tap and the outlet pipes to a main tube connected to a peristaltic pump. Once the water was nearly above the level of the outlet holes, we began to run the peristaltic pump at a low rate.
 
 We adjusted the rate of the pump until water was flowing in and out at a steady rate. Eventually, we changed the inlet source of water to the sink in the lab so that there were less air bubbles coming from the source.
 
@@ -206,7 +206,9 @@ As for more details about the design in Onshape, it was constructed so that the 
 <p align="center"> Figure 10: Circular Design Configurations
 </p>
 
-Our first experiment
+StaRSFine's first experiment with the 3D printed model was a success. The model was made to fit into a four inch diameter pipe, though some sanding was necessary to make sure it fit snugly. Then, the drill in the machine shop was used to drill holes that lined up exactly with the holes in the back of the model. Small tubes were inserted into these holes and sealed with glue to make a watertight seal. These tubes were then connected to a larger tube that ran through the peristaltic pump and then to the wastewater outtake pipe. Another tube was inserted into the hole in the bottom cap to fill the pipe with water. The purpose of running a test with only water was only to make sure the apparatus was watertight and that there were no air or water leaks that would skew data.
+
+There is still work to be done to test this design. The main concern (and where StaRSFine has failed in the past) is that sand will follow water out of the outlet pipe once higher filtration speeds are approached. Horizontal Filtration is also interested in finding the velocity at which sand follows water out of the outlet pipe, so communication and data sharing between the two teams will be helpful. The velocity found by Horizontal Filtration is necessary to consider when StaRSFine begins to experiment with sand to prevent starting with too large a filtration velocity. The peristaltic pipe is not perfectly calibrated, so it will be necessary to run an experiment with a graduated cylinder full of water and see how many milliliters the pump is actually pulling up each minute. Once the speed that the model fails consistently is found, this can be compared to calculations and see if it is worth making a larger model (to scale with the actual filter) or if a new design must be created. Theoretically, this design has enough area to work for backwash and filtration velocities, and the apparatus will be watertight and set up to handle longer tests, so the next StaRSFine team has a very strong foundation to work with. The goals that were not completed are still worth pursuing in next semesters, especially because the team is so close to finding out if this design would work in future AguaClara plants.   
 
 ### Works Cited
 
