@@ -1,19 +1,23 @@
 ### **StaRS FInE, Fall 2018**
 #### Lily Falk, Sam Hertle, Whitney Denison
-#### 11/16/2018
+#### 12/08/2018
 
 ### Abstract
 StaRS FInE is a critically important team because the team deals with one of the last steps in the AguaClara process (filtration). The current outtake pipes are problematic because not only do they clog, the current method of cleaning them is with large quantities of acid. StaRS Fine's suggested remedy to combat this problem involves designing and implementing a “Christmas tree” design that uses the same gravity exclusion principles tested by Horizontal Filtration. Future tasks for this team are to fabricate and design this new pipe and experiment to find its failure velocity, but the team is confident in the future of the work.
 change
+[**Jonathan: What are your key conclusions? Maybe mention the minimum angle**]
+
 ### Table of Contents
-1. Introduction
-2. Literature Review
+1. [Introduction](#Introduction)
+2. [Literature Review](# Literature Review)
 3. Previous Work
 4. Methods
 5. Results and Analysis
 6. Future Work
 7. Manual
 8. Works Cited
+
+[**Jonathan: Notice how I made the first number in your table of contents, make sure to do that for the rest. That hyperlinks them and so when people are looking at the document in github they can quickly reach different parts of your report!**]
 
 ### Introduction
 The StaRS FInE team was disbanded after the fall of 2015, but it has been brought back because of the importance and continued relevance of the team's task. The current design for the outlet pipes in StaRS filters can, and needs to be, significantly improved. The small slots get clogged with chemical deposits, and the most effective way to clean them is by pouring buckets of acid into the filters. Not only is the purchasing of these chemicals an extra expense, it is also inconvenient because plant flow must be diverted when this process happens. The team’s goal is to develop and test an outlet system that does not clog with chemical deposits and prevents sand escape. This involves characterizing the failure velocity of sand exclusion zones and determining failure time. Past teams failed because of issues with sand getting into their outlet pipe design during filtration. Encouragingly, they did develop designs that worked during backwash, the filtration velocity was just too great and the water effluent contained a great amount of sand. Because this problem occurs at the filtration outtake, the team must be very conscious of head loss and the major and minor losses coming from the outlet pipe and the design geometry.
@@ -32,9 +36,10 @@ In the Spring of 2015, the StaRS FInE sub-team dedicated themselves to finding m
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/FabricatedTestFilterTank.png" width= "350"> </p>
 
-<p align="center"> Figure 1 : The fabricated Testing System for StaRS FInE
+<p align="center"> <b>Figure 1</b> : The fabricated Testing System for StaRS FInE
 </p>
 
+[**Jonathan: Make sure to bold "Figure _"**]
 
 ##### StaRS FInE Fall 2015
 In the Fall of 2015, the StaRS FInE team would be the last sub-team, until now, dedicated to using the combination of horizontal filtration and StaRS Filter theory methods to research more efficient injection and extraction of water to and from the StaRS filters in the plants. They had plans to optimize the triangular horizontal filter outlet pipe design for practical use in plants, further implement an inlet method, and face the challenges that had to do with the fallbacks of gravity exclusion and head-loss. Although they ultimately designed a winged-inlet pipe that optimized fluidization of the filter sand bed during filtration and backwash, the team was rather pessimistic about the potential for a winged outlet pipe after continual failure (sand in the effluent). They left a number of tasks uncompleted in hopes that the creativity of later StaRS FInE sub-teams could combat the issue from a new direction.
@@ -87,7 +92,8 @@ Testing the feasibility of the design prototype will be done in a 4-inch diamete
 <p align="center"> Figure 5: Images of the edited design to fit in 4-Inch PVC
 </p>
 
-
+[**Jonathan: I'm not sure what the right most image actually is.**]
+[**Jonathan: I would also suggest that you add an image showing the direction the water flows in this apparatus, as well as saying that the sand will not also flow out.**]
 
 The apparatus was constructed to scale and will be further fabricated in the future. In the meantime, the 3D printed structure was sanded to fit tightly into the pipe. The wings on the design were structured together by blocks of PVC and secured so the wings could withstand the force from filtration.
 
@@ -178,6 +184,9 @@ Much of the work of the current StaRS Fine team is built off past teams’ succe
 
 The increase in area under the branches acts to decrease the velocity of the water flowing through, preventing the sand from fluidizing and exiting. The equation describing flow is Q = V*A where V is velocity and A is area. For a pipe with area A, velocity through V and flow rate Q, the value of Q must be the same for the mass flowing through the tree as through the pipe. Fluidization velocity is 5 mm/s, so the velocity through the tree must be lower than 5. The wing area was determined by Awing = Apipe*Vpipe/5. In that case, Apipe is the cross-sectional area of the 4 inch diameter pipe, and Vpipe is approximately 1 mm/s.
 
+$$A_{wing}=\frac{A_{pipe} * V_{pipe}}{5}$$
+
+[**For equations, it is recommended to used one or two '$'. Also, you may want to take the eqation out of the main text body**]
 
 The sub-team designed and 3D printed a model of this design that is shaped to be placed in a pipe with a 4 inch diameter so it can be tested at different velocities. The model was designed in Onshape, parameterized based on calculations described above, then 3D printed and sanded at the corners to allow it to perfectly fit into the pipe.
 The only data that is purely experimental at this point is the minimum angle for the branch. This was a simple experiment that shows the angle that sand begins to slide down with gravity. Using geometry motivated by gravity means that even if sand does follow water into the branch it should slide down by itself.
@@ -238,3 +247,5 @@ Design and management of conventional fluidized-sand biofilters. (2006, May). Re
 &acdnat=1540398330_3e8e582ef5514b99c3b5477037502a31
 
 Digital Angle Ruler AR-360D. (n.d.). Retrieved from https://www.baileigh.com/index.php/digital-angle-ruler-ar-360-1?gclid=CjwKCAiA8rnfBRB3EiwAhrhBGiKxEGneqXQqfquSKPfI_nBAs_IaevhDbBt0KZNHSZ0YQmYE3MC7OBoCX4cQAvD_BwE
+Fall2018Report.md
+Displaying Fall2018Report.md.
