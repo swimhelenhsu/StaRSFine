@@ -131,7 +131,7 @@ Finally, the system was attached to a peristaltic pump to conduct tests.
 
 <p float="left"> <p align="center">
   <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/WholeApparatusSetup.jpg" width="400" />
-  <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/WaterDirection.png" width="170" />
+  <img src=" " width="170" />
 
 <p align="center"> Figure 10 : The Final Apparatus and the direction of water flow
 </p>
@@ -183,7 +183,7 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Apparat
 ##### Test 3: Peristaltic Pump RPM to mL/second
 The following **figure 12** is the data from the conversion test.
 <p align="center"> <img
-src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/RPMmLsdata.png" width= "350"> </p>
+src="" width= "350"> </p>
 
 <p align="center"> Figure 12: The data collected from peristaltic pump for two trials of a number of RPM
 </p>
@@ -193,7 +193,7 @@ Along with this data, the team came to understand the relationship between RPM a
 $$y_{rate}={0.0194 x_{RPM}} + 0.0425$$
 
 <p align="center"> <img
-src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/RPMmLsgraph.png" width= "350"> </p>
+src="" width= "350"> </p>
 
 <p align="center"> Figure 13: The data plotted and fit to a linear model
 </p>
@@ -220,7 +220,7 @@ $$A_{wing}=\frac{A_{pipe} * V_{pipe}}{5}$$
 
 <p align="center">
 <img
-src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/WingAreaDimensions.jpeg" width="300">
+src="" width="300">
 </p>
 
 <p align="center"> Figure 14: Dimensions on the Onshape drawing that signify a dimension for the exposed area for sand flow
