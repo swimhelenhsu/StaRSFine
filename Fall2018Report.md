@@ -3,7 +3,7 @@
 #### 12/08/2018
 
 ### Abstract
-StaRS FInE is a critically important subteam because the the project deals with one of the last steps in the AguaClara process (filtration). The current outtake pipes are problematic because they clog, and the current method of cleaning them is large quantities of acid. StaRS Fine's suggested remedy to combat this problem involves designing and implementing a “Christmas tree” design that uses the same gravity exclusion principles tested by Horizontal Filtration. The key conclusions of this semester were finding the minimum angle necessary for the sand to slide down the branches of the tree design with gravity, as well as designing, parameterizing, and printing a small model of the design and testing it with water flowing through a PVC pipe.
+StaRS FInE is a critically important subteam because the the project deals with one of the last steps in the AguaClara process (filtration). The current outtake pipes are problematic because they clog, and the current method of cleaning them involves large quantities of acid. StaRS Fine's suggested remedy to combat this problem involves designing and implementing a “Christmas tree” design that uses the same gravity exclusion principles tested by Horizontal Filtration. The key conclusions of this semester were finding the minimum angle necessary for the sand to slide down the branches of the tree design with gravity, as well as designing, parameterizing, and printing a small model of the design and testing it with water flowing through a PVC pipe.
 
 
 ### Table of Contents
@@ -133,7 +133,7 @@ Finally, the system was attached to a peristaltic pump to conduct tests.
 </p>
 
 ##### Test 3: Peristaltic Pump RPM to mL/second
-Another consideration that the team was toying with was the rate at which the filter needed to extract water. This rate is generally in mL/second in AguaClara plants but the peristaltic pump functions at RPM. This number will be essential to future data collection so the team set up an experiment to measure the precision in equating RPM to mL/second linearly.
+Another consideration that the team dealt with was the rate at which the filter needed to extract water. This rate is generally in mL/second in AguaClara plants but the peristaltic pump functions at RPM. This number will be essential to future data collection so the team set up an experiment to measure the precision in equating RPM to mL/second linearly.
 
 To do so, the team filled a graduated cylinder with water and inserted a peristaltic outlet pipe.
 
@@ -186,7 +186,7 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/RPMmLsd
 
 Along with this data, the team came to understand the relationship between RPM and extraction rate by graphing the results. Although the data is primarily linear, there is error due to the lack of precision for the team's ability to measure time and read the graduated cylinder exactly. But, in **Figure 13**, the data is fitted to a linear model with the equation as follows.
 
-$$y_{rate}={0.0194 x_{RPM}} + 0.0425$$
+$$ y_{rate}={0.0194 x_{RPM}} + 0.0425 $$
 
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/RPMmLsgraph.png" width= "350"> </p>
@@ -203,7 +203,6 @@ Finally, the data from the RPM and rate of extraction correlation gives the team
 
 ### Future Work
 In the future, the team hopes to continue testing the existing apparatus for simulation of the StaRS filters. This will include adding sand to the PVC as well as understanding the flow rates of backwash and filtration with respect to the model system. This will give the team an indication of what adjustments must be made to the system to optimize or correct the function. In addition, the team is still waiting for more data from the Horizontal Filtration team about research they are conducting on the failure velocity of water with respect to gravity exclusion.
-
 
 ### Manual
 Much of the work of the current StaRS Fine team is built off past teams’ successes and failures. The current idea for pipe geometry is informed by the past failures of winged outlet pipes during high filtration speeds, which informed the calculations made to increase the area under our branches.
@@ -252,7 +251,7 @@ As for more details about the design in Onshape, it was constructed so that the 
 
 StaRSFine's first experiment with the 3D printed model was a success. The model was made to fit into a four inch diameter pipe, though some sanding was necessary to make sure it fit snugly. Then, the drill in the machine shop was used to drill holes that lined up exactly with the holes in the back of the model. Small tubes were inserted into these holes and sealed with glue to make a watertight seal. These tubes were then connected to a larger tube that ran through the peristaltic pump and then to the wastewater outtake pipe. Another tube was inserted into the hole in the bottom cap to fill the pipe with water. The purpose of running a test with only water was only to make sure the apparatus was watertight and that there were no air or water leaks that would skew data.
 
-There is still work to be done to test this design. The main concern (and where StaRSFine has failed in the past) is that sand will follow water out of the outlet pipe once higher filtration speeds are approached. Horizontal Filtration is also interested in finding the velocity at which sand follows water out of the outlet pipe, so communication and data sharing between the two teams will be helpful. The velocity found by Horizontal Filtration is necessary to consider when StaRSFine begins to experiment with sand to prevent starting with too large a filtration velocity. The peristaltic pipe is not perfectly calibrated, so it will be necessary to run an experiment with a graduated cylinder full of water and see how many milliliters the pump is actually pulling up each minute. Once the speed that the model fails consistently is found, this can be compared to calculations and see if it is worth making a larger model (to scale with the actual filter) or if a new design must be created. Theoretically, this design has enough area to work for backwash and filtration velocities, and the apparatus will be watertight and set up to handle longer tests, so the next StaRSFine team has a very strong foundation to work with. The goals that were not completed are still worth pursuing in next semesters, especially because the team is so close to finding out if this design would work in future AguaClara plants.   
+There is still work to be done to test this design. The main concern (and where StaRSFine has failed in the past) is that sand will follow water out of the outlet pipe once higher filtration speeds are approached. Horizontal Filtration is also interested in finding the velocity at which sand follows water out of the outlet pipe, so communication and data sharing between the two teams will be helpful. The velocity found by Horizontal Filtration is necessary to consider when StaRSFine begins to experiment with sand to prevent starting with too large a filtration velocity. Once the speed that the model fails consistently is found, this can be compared to calculations and see if it is worth making a larger model (to scale with the actual filter) or if a new design must be created. Theoretically, this design has enough area to work for backwash and filtration velocities, and the apparatus will be watertight and set up to handle longer tests, so the next StaRSFine team has a very strong foundation to work with. The goals that were not completed are still worth pursuing in next semesters, especially because the team is so close to finding out if this design would work in future AguaClara plants.   
 
 ### Works Cited
 
