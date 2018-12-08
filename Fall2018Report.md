@@ -3,7 +3,7 @@
 #### 12/08/2018
 
 ### Abstract
-StaRS FInE is a critically important team because the team deals with one of the last steps in the AguaClara process (filtration). The current outtake pipes are problematic because not only do they clog, the current method of cleaning them is with large quantities of acid. StaRS Fine's suggested remedy to combat this problem involves designing and implementing a “Christmas tree” design that uses the same gravity exclusion principles tested by Horizontal Filtration. The key conclusions of this semester were finding the minimum angle necessary for the sand to slide down the branches of the tree design with gravity and designing, parameterizing, and printing a small model of the design and testing it with water flowing through a PVC pipe.
+StaRS FInE is a critically important subteam because the the project deals with one of the last steps in the AguaClara process (filtration). The current outtake pipes are problematic because they clog, and the current method of cleaning them is large quantities of acid. StaRS Fine's suggested remedy to combat this problem involves designing and implementing a “Christmas tree” design that uses the same gravity exclusion principles tested by Horizontal Filtration. The key conclusions of this semester were finding the minimum angle necessary for the sand to slide down the branches of the tree design with gravity, as well as designing, parameterizing, and printing a small model of the design and testing it with water flowing through a PVC pipe.
 
 
 ### Table of Contents
@@ -49,7 +49,7 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/InletPi
 
 
 ##### StaRS Filter Theory Spring 2018
-To understand the injection and extraction methods, it is important to also understand the methodology behind StaRS Filtration in general. Essentially, AguaClara use this filter because it is efficient in its ability to filter and backwash at the same rate. It is gravity driven and is “proven to consistently lower the effluent to below the US EPA standard of 0.3 NTU” (StaRS Filter Theory Wiki., 2018). Currently, the StaRS Filter theory team is aiming to test more about the efficiency of different sized sand particles, something the team may want to keep updated on during calculations and testing.
+To understand the injection and extraction methods, it is important to also understand the methodology behind StaRS Filtration in general. Essentially, AguaClara uses this filter because it is efficient in its ability to filter and backwash at the same rate. It is gravity driven and is “proven to consistently lower the effluent to below the US EPA standard of 0.3 NTU” (StaRS Filter Theory Wiki., 2018). Currently, the StaRS Filter theory team is aiming to test more about the efficiency of different sized sand particles, something the team may want to keep updated on during calculations and testing.
 
 ##### Horizontal Filtration Spring 2018
 From the research of the Horizontal filtration team, the team learns most about plate settlers and the team’s experience to combine the methods with those of the StaRS Filters. The design that they hoped to optimize included a vertical backwash flow and horizontal filtration method. This schema could be useful in understanding how the bed of sand is successfully and completely fluidized so that the filter is still functional. In the intention of future work, we noted exploring more about the failure flow rate for the “sand plugs” created during gravity exclusion. The report notes a relationship discovered between slight dissociation of sand particles from the exclusion zone boundaries and a high flow rate (O'Connor, C., Chao, C., & Galantino, C. ,2018, pp. 4).
@@ -86,11 +86,9 @@ Testing the feasibility of the design prototype will be done in a 4-inch diamete
   <img src="https://github.com/AguaClara/StaRSFine/blob/master/Images/ChristmasTree1Circle.png?raw=true" width="150" />
   <img src="https://github.com/AguaClara/StaRSFine/blob/master/Images/ChristmasTree2Circle.png?raw=true" width="150" />
   <img src="https://github.com/AguaClara/StaRSFine/blob/master/Images/ChristmasTree3Circle.png?raw=true" width="150" />
-<p align="center"> <b> Figure 5</b>: Images of the edited design to fit in 4-Inch PVC
+<p align="center"> <b> Figure 5</b>: Images of the front and top faces of the edited design - rounded to fit in 4-inch diameter PVC pipe
 </p>
 
-[**Jonathan: I'm not sure what the right most image actually is.**]
-[**Jonathan: I would also suggest that you add an image showing the direction the water flows in this apparatus, as well as saying that the sand will not also flow out.**]
 
 The apparatus was constructed to scale and will be further fabricated in the future. In the meantime, the 3D printed structure was sanded to fit tightly into the pipe. The wings on the design were structured together by blocks of PVC and secured so the wings could withstand the force from filtration.
 
@@ -129,15 +127,15 @@ Finally, the system was attached to a peristaltic pump to conduct tests.
 
 <p float="left"> <p align="center">
   <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/WholeApparatusSetup.jpg" width="400" />
-  <img src="https://github.com/AguaClara/StaRSFine/blob/master/Images/WaterDirection.png" width="170" />
+  <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/WaterDirection.png" width="170" />
 
-<p align="center"> <b> Figure 10</b>: The Final Apparatus and the direction of water flow
+<p align="center"> <b> Figure 10</b>: The Final Apparatus where water (and no sand) will flow up toward the peristaltic pump.
 </p>
 
 ##### Test 3: Peristaltic Pump RPM to mL/second
-Another consideration that the team was toying with was the rate at which the filter needed to extract water. This rate is generally in mL/second in AguaClara plants but the peristaltic pump functioned at RPM. This number will be essential to future data collection so the team set up an experiment to measure the precision in equating RPM to mL/second linearly.
+Another consideration that the team was toying with was the rate at which the filter needed to extract water. This rate is generally in mL/second in AguaClara plants but the peristaltic pump functions at RPM. This number will be essential to future data collection so the team set up an experiment to measure the precision in equating RPM to mL/second linearly.
 
-To do so, the team filled a precise graduated cylinder with water and inserted a peristaltic outlet pipe.
+To do so, the team filled a graduated cylinder with water and inserted a peristaltic outlet pipe.
 
 #### Procedure
 ##### Test 1: Sand Flow Against Surface: Minimum Angle
@@ -153,7 +151,7 @@ We adjusted the rate of the pump until water was flowing in and out at a steady 
 One consideration during this experiment was the rate at which the team would be taking water out of the apparatus. To emulate the current rate that filters function at, the team settled on the idea that the apparatus could ultimately be treated as life size, with respect to the current filter extraction rates. This extraction rate will be considered more in the future with tests including sand, but the team tested the ability of the apparatus to pull water at a number of rates (in RPM).
 
 ##### Test 3: Peristaltic Pump RPM to mL/second
-Once the pump's outlet was inserted into the water, the team members set up with a stopwatch and recorded values at which the pump extracted a set volume of water.
+Once the pump's outlet was inserted into the water, the team members set up a stopwatch and recorded values at which the pump extracted a set volume of water.
 
 The team repeated this experiment with a number of RPM values with multiple trials for each to test consistency and accuracy.
 
@@ -210,11 +208,12 @@ In the future, the team hopes to continue testing the existing apparatus for sim
 ### Manual
 Much of the work of the current StaRS Fine team is built off past teams’ successes and failures. The current idea for pipe geometry is informed by the past failures of winged outlet pipes during high filtration speeds, which informed the calculations made to increase the area under our branches.
 
-The increase in area under the branches acts to decrease the velocity of the water flowing through, preventing the sand from fluidizing and exiting. The equation describing flow is Q = V*A where V is velocity and A is area. For a pipe with area A, velocity through V and flow rate Q, the value of Q must be the same for the mass flowing through the tree as through the pipe. Fluidization velocity is 5 mm/s, so the velocity through the tree must be lower than 5. The wing area was determined by Awing = Apipe*Vpipe/5. In that case, Apipe is the cross-sectional area of the 4 inch diameter pipe, and Vpipe is approximately 1 mm/s.
+The increase in area under the branches acts to decrease the velocity of the water flowing through, preventing the sand from fluidizing and exiting. The equation describing flow is Q = VA where V is velocity and A is area. For a pipe with area A, velocity through V and flow rate Q, the value of Q must be the same for the mass flowing through the tree as through the pipe. Fluidization velocity is 5 mm/s, so the velocity through the tree must be lower than 5. The wing area was determined by
 
 $$A_{wing}=\frac{A_{pipe} * V_{pipe}}{5}$$
 
-[**For equations, it is recommended to used one or two '$'. Also, you may want to take the eqation out of the main text body**]
+In that case, Apipe is the cross-sectional area of the 4 inch diameter pipe, and Vpipe is approximately 1 mm/s.
+
 
 <p align="center">
 <img
