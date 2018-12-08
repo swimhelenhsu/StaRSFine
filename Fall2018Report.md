@@ -202,7 +202,7 @@ Also, after the testing for water in the team's 4-Inch PVC pipe model, the team 
 Finally, the data from the RPM and rate of extraction correlation gives the team a fairly accurate relationship between the two in the case of the peristaltic pump in the lab, which ultimately aids in the application of the team's research to AguaClara sand filters currently.
 
 ### Future Work
-In the future, the team hopes to continue testing the existing apparatus for simulation of the StaRS filters. This will include adding sand to the PVC as well as understanding the flow rates of backwash and filtration with respect to the model system. This will give the team an indication of what adjustments must be made to the system to optimize or correct the function. In addition, the team is still awaiting more data from the Horizontal filtration team about research they are conducting on the failure velocity of water with respect to gravity exclusion.
+In the future, the team hopes to continue testing the existing apparatus for simulation of the StaRS filters. This will include adding sand to the PVC as well as understanding the flow rates of backwash and filtration with respect to the model system. This will give the team an indication of what adjustments must be made to the system to optimize or correct the function. In addition, the team is still waiting for more data from the Horizontal Filtration team about research they are conducting on the failure velocity of water with respect to gravity exclusion.
 
 
 ### Manual
