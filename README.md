@@ -1,4 +1,4 @@
-# StaRSFine
+# StaRSFInE
 ### The purpose of the StaRS FInE team is to design and develop an effective way to inject and extract water from the sand filter in the AguaClara Plants. The team currently combines methods of horizontal filtration along with fluid characteristics to determine an environmentally friendly and sustainable method of extraction.
 #### Team Members
 Lily Falk (lmf238@cornell.edu)
