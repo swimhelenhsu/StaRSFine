@@ -9,15 +9,13 @@ change
 
 ### Table of Contents
 1. [Introduction](#Introduction)
-2. [Literature Review](# Literature Review)
-3. Previous Work
-4. Methods
-5. Results and Analysis
-6. Future Work
-7. Manual
-8. Works Cited
-
-[**Jonathan: Notice how I made the first number in your table of contents, make sure to do that for the rest. That hyperlinks them and so when people are looking at the document in github they can quickly reach different parts of your report!**]
+2. [Literature Review](#Literature-Review)
+3. [Previous Work](#Previous-Work)
+4. [Methods](#Methods)
+5. [Results and Analysis](#Results-and-Analysis)
+6. [Future Work](#Future-work)
+7. [Manual](#Manual)
+8. [Works Cited](#Works-cited)
 
 ### Introduction
 The StaRS FInE team was disbanded after the fall of 2015, but it has been brought back because of the importance and continued relevance of the team's task. The current design for the outlet pipes in StaRS filters can, and needs to be, significantly improved. The small slots get clogged with chemical deposits, and the most effective way to clean them is by pouring buckets of acid into the filters. Not only is the purchasing of these chemicals an extra expense, it is also inconvenient because plant flow must be diverted when this process happens. The team’s goal is to develop and test an outlet system that does not clog with chemical deposits and prevents sand escape. This involves characterizing the failure velocity of sand exclusion zones and determining failure time. Past teams failed because of issues with sand getting into their outlet pipe design during filtration. Encouragingly, they did develop designs that worked during backwash, the filtration velocity was just too great and the water effluent contained a great amount of sand. Because this problem occurs at the filtration outtake, the team must be very conscious of head loss and the major and minor losses coming from the outlet pipe and the design geometry.
@@ -36,7 +34,8 @@ In the Spring of 2015, the StaRS FInE sub-team dedicated themselves to finding m
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/FabricatedTestFilterTank.png" width= "350"> </p>
 
-<p align="center"> <b>Figure 1</b> : The fabricated Testing System for StaRS FInE
+<p align="center"> <b>
+Figure 1 </b> : The fabricated Testing System for StaRS FInE
 </p>
 
 [**Jonathan: Make sure to bold "Figure _"**]
@@ -60,7 +59,7 @@ From the research of the Horizontal filtration team, the team learns most about 
 ### Methods
 #### Experimental Apparatus
 ##### Test 1: Sand Flow Against Surface Minimum Angle
-Below, Figure 3 shows the apparatus of the simple design used to attain more insight of the angle at which sand begins to slide down a flat surface.
+Below, **Figure 3** shows the apparatus of the simple design used to attain more insight of the angle at which sand begins to slide down a flat surface.
 
 This information was attained so there would be more understanding about the function of the “Christmas Tree” design. It was assumed that occasionally the gravity exclusion zones would fail and that sand would escape it’s “plug” and be in a region against the branches of the horizontal filters. To ensure that the sand could fall onto the lower of the plates and be directed back into the sand plug, an essential quality of the system is the ability for sand to be under the influence of gravity.
 
@@ -119,7 +118,7 @@ The prototype was further fabricated by adding additional structures to support 
 <p align="center"> Figure 8 : The supports to be inserted in the PVC pipe and the structure including the lower support.
 </p>
 
-Caps were added to the pipe to ensure watertight quality for testing. Figure 9 demonstrates the hole drilling for the outlet tubes, which we ultimately inserted 3 small outlets to for extraction from the system. The lower cap included a water tap which was used for inlet flow.
+Caps were added to the pipe to ensure watertight quality for testing. **Figure 9** demonstrates the hole drilling for the outlet tubes, which we ultimately inserted 3 small outlets to for extraction from the system. The lower cap included a water tap which was used for inlet flow.
 
 <p float="left"> <p align="center">
   <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/HoleDrilling.jpg" width="150" />
@@ -132,9 +131,15 @@ Finally, the system was attached to a peristaltic pump to conduct tests.
 
 <p float="left"> <p align="center">
   <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/WholeApparatusSetup.jpg" width="400" />
+  <img src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/WaterDirection.png" width="170" />
 
-<p align="center"> Figure 10 : The Final Apparatus
+<p align="center"> Figure 10 : The Final Apparatus and the direction of water flow
 </p>
+
+##### Test 3: Peristaltic Pump RPM to mL/second
+Another consideration that the team was toying with was the rate at which the filter needed to extract water. This rate is generally in mL/second in AguaClara plants but the peristaltic pump functioned at RPM. This number will be essential to future data collection so the team set up an experiment to measure the precision in equating RPM to mL/second linearly.
+
+To do so, the team filled a precise graduated cylinder with water and inserted a peristaltic outlet pipe.
 
 #### Procedure
 ##### Test 1: Sand Flow Against Surface: Minimum Angle
@@ -146,6 +151,13 @@ After fabricating our model filter system, the first test we conducted was desig
 To do so, we attached the inlet to the tap water from the drop down tap and the outlet pipes to a main tube connected to a peristaltic pump. Once the water was nearly above the level of the outlet holes, we began to run the peristaltic pump at a low rate.
 
 We adjusted the rate of the pump until water was flowing in and out at a steady rate. Eventually, we changed the inlet source of water to the sink in the lab so that there were less air bubbles coming from the source.
+
+One consideration during this experiment was the rate at which the team would be taking water out of the apparatus. To emulate the current rate that filters function at, the team settled on the idea that the apparatus could ultimately be treated as life size, with respect to the current filter extraction rates. This extraction rate will be considered more in the future with tests including sand, but the team tested the ability of the apparatus to pull water at a number of rates (in RPM).
+
+##### Test 3: Peristaltic Pump RPM to mL/second
+Once the pump's outlet was inserted into the water, the team members set up with a stopwatch and recorded values at which the pump extracted a set volume of water.
+
+The team repeated this experiment with a number of RPM values with multiple trials for each to test consistency and accuracy.
 
 ### Results and analysis
 ##### Test 1: Sand Flow Against Surface: Minimum Angle
@@ -168,12 +180,30 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Apparat
 <p align="center"> Figure 11: The stand developed to hold up the PVC system
 </p>
 
+##### Test 3: Peristaltic Pump RPM to mL/second
+The following **figure 12** is the data from the conversion test.
+<p align="center"> <img
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/RPMmLsdata.png" width= "350"> </p>
 
+<p align="center"> Figure 12: The data collected from peristaltic pump for two trials of a number of RPM
+</p>
+
+Along with this data, the team came to understand the relationship between RPM and extraction rate by graphing the results. Although the data is primarily linear, there is error due to the lack of precision for the team's ability to measure time and read the graduated cylinder exactly. But, in **figure 13**, the data is fitted to a linear model with the equation as follows.
+
+$$y_{rate}={0.0194 x_{RPM}} + 0.0425$$
+
+<p align="center"> <img
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/RPMmLsgraph.png" width= "350"> </p>
+
+<p align="center"> Figure 13: The data plotted and fit to a linear model
+</p>
 
 ### Conclusions
 Based on our tests for the minimum inclination angle for the continuous flow of sand on a PVC surface, the team concluded that an angle of at least 26.64 degrees is an essential design limitation for constructing a triangular shaped horizontal filter.  
 
 Also, after the testing for water in the team's 4-Inch PVC pipe model, the team concluded that the model will be sufficient for water flow. Although the team did not yet have the chance to do sand as well, ensuring the system is watertight and that water could be extracted from it was essential to continuing with research.
+
+Finally, the data from the RPM and rate of extraction correlation gives the team a fairly accurate relationship between the two in the case of the peristaltic pump in the lab, which ultimately aids in the application of the team's research to AguaClara sand filters currently.
 
 ### Future Work
 In the future, the team hopes to continue testing the existing apparatus for simulation of the StaRS filters. This will include adding sand to the PVC as well as understanding the flow rates of backwash and filtration with respect to the model system. This will give the team an indication of what adjustments must be made to the system to optimize or correct the function. In addition, the team is still awaiting more data from the Horizontal filtration team about research they are conducting on the failure velocity of water with respect to gravity exclusion.
@@ -188,6 +218,14 @@ $$A_{wing}=\frac{A_{pipe} * V_{pipe}}{5}$$
 
 [**For equations, it is recommended to used one or two '$'. Also, you may want to take the eqation out of the main text body**]
 
+<p align="center">
+<img
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/WingAreaDimensions.jpeg" width="300">
+</p>
+
+<p align="center"> Figure 14: Dimensions on the Onshape drawing that signify a dimension for the exposed area for sand flow
+</p>
+
 The sub-team designed and 3D printed a model of this design that is shaped to be placed in a pipe with a 4 inch diameter so it can be tested at different velocities. The model was designed in Onshape, parameterized based on calculations described above, then 3D printed and sanded at the corners to allow it to perfectly fit into the pipe.
 The only data that is purely experimental at this point is the minimum angle for the branch. This was a simple experiment that shows the angle that sand begins to slide down with gravity. Using geometry motivated by gravity means that even if sand does follow water into the branch it should slide down by itself.
 
@@ -197,7 +235,7 @@ The only data that is purely experimental at this point is the minimum angle for
 src="https://github.com/AguaClara/StaRSFine/blob/master/Images/Screen%20Shot%202018-11-16%20at%203.12.59%20PM.png?raw=true" width="300">
 </p>
 
-<p align="center"> Figure 8: Fabrication Protractor
+<p align="center"> Figure 14: Fabrication Protractor
 </p>
 
 Using a fabrication protractor, the end of the pipe filled with sand and water was moved up slowly until all of the sand started moving down the pipe. This happened at a significant rate at 26.5 degrees, meaning that when there is no flow up through the branch, sand will settle to the bottom at this angle. The design needs to work during backwash and filtration, where the water is flowing quickly upward, so this angle is the smallest one possible. This is a useful constraint because in theory it limits the area we can have under the branches. However, the initial design reaches the necessary area constraints at an angle of 30 degrees, so decreasing the angle past the minimum point is not a concern.
@@ -206,13 +244,13 @@ As for more details about the design in Onshape, it was constructed so that the 
 <p float="left"> <p align="center">
   <img src="https://github.com/AguaClara/StaRSFine/blob/master/Images/DesignConfigurations.png?raw=true" width="138" />
 
-<p align="center"> Figure 9: Original Onshape Design Configurations
+<p align="center"> Figure 15: Original Onshape Design Configurations
 </p>
 
 <p align="center">
   <img src="https://github.com/AguaClara/StaRSFine/blob/master/Images/DesignConfigCircle.png?raw=true" width="140" />
   </p>
-<p align="center"> Figure 10: Circular Design Configurations
+<p align="center"> Figure 16: Circular Design Configurations
 </p>
 
 StaRSFine's first experiment with the 3D printed model was a success. The model was made to fit into a four inch diameter pipe, though some sanding was necessary to make sure it fit snugly. Then, the drill in the machine shop was used to drill holes that lined up exactly with the holes in the back of the model. Small tubes were inserted into these holes and sealed with glue to make a watertight seal. These tubes were then connected to a larger tube that ran through the peristaltic pump and then to the wastewater outtake pipe. Another tube was inserted into the hole in the bottom cap to fill the pipe with water. The purpose of running a test with only water was only to make sure the apparatus was watertight and that there were no air or water leaks that would skew data.
