@@ -7,7 +7,7 @@ Sam Hertle (sjh323@cornell.edu)
 
 Whitney Denison (wwd23@cornell.edu)
 
-#### Team Materials
+#### Team Materials and Reports
 
 Link to Symposium Presentation Slides (https://docs.google.com/presentation/d/1b8HB0uBHJ7hJXRMDNF7Oz6hhu_W4NX50pGtOUANLa24/edit?usp=sharing)
 
