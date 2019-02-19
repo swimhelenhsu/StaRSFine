@@ -1,13 +1,6 @@
-# AguaClara Research Report & Manual Template
+# StaRS FInE, Spring 2019
 #### Lily Falk, Sam Hertle, and Whitney Denison
 #### February 22, 2019
-
-# Template Description
-This template will lay out all possible sections that could be used for a research report and manual. All research reports and manuals should strive to comply with this template, but every team will use different parts. In order to use this template, copy this file from the AguaClara team resources repository to your team's repository, and rename it for your team in a format similar to  "[Team Name] [Semester]". An example would be "Filter and Treatment Train Flow Control Spring 2017." For additional information on all the possibilities in markdown files, refer to the [AguaClara Interactive Tutorial](https://github.com/AguaClara/aguaclara_tutorial) and the [AguaClara Tutorial training pages](https://aguaclara.github.io/aguaclara_tutorial/). After you complete that step, please delete this description and everything above this.
-
-# Team Name, Semester Year
-#### Authors
-#### Date
 
 ## Abstract
 Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)
@@ -53,10 +46,10 @@ Explain your apparatus setup using enough detail such that future teams can recr
 * Complications in construction
 * If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described
 
-### Procedure
+### Procedure- dont do yet
 Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
 
-## Results and Analysis
+## Results and Analysis- dont do yet
 Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.
 In other words, there should not be two distinct paragraphs, but instead one paragraph containing one result and the interpretation and analysis of this result. Here are some guiding questions for results and analysis:
 
