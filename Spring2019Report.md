@@ -122,64 +122,57 @@ Describe your plan of action for the next several weeks of research. Detail the 
 Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
 
 # Manual
-The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
+The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where the team left off.
 
 ## Fabrication Details
-Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
+The current apparatus design was revisited. The team noted the small outlet pipe size, and did the below calculation to determine that minimum pipe diameter was not met.
 
-## Special Components
-If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
+| Respective Flow Rate      | Minimum Tube Inner Diameter  |
+|---------------------------|-----------------------|---|---|---|
+| 36.67 milliliter / second | 3.762 millimeter      |
 
-## Experimental Methods
-### Set-up
-Step 1.
-* Put tasks in a sequential order.
-* It is okay to have sub-lists.
-  - Like this.
-
-### Experiment
-Step 1.
-
-### Cleaning Procedure
-Step 1.
-
+Shaving the glue from the previous tubes, the team detached the tubes. Using the new calculated inner diameter, the team found tubing that matched met the minimum standard and considered how it would affect the design of the 3D printed pine-tree filter which was already fit to the prototype PVC tube by holes drilled. In the OnShape drawing, the team determined that, if the filter was taken from the prototype, respective sized holes could be drilled with the drill press. The holes were designed to be offset from the original holes while still remaining in the bounds of the upper and lower wings. Holes were drilled to match these on the 4-Inch PVC prototype.
 ## Experimental Checklist
-Another potential section could include a list of things that you need to check before running an experiment.
-
-## ProCoDA Method File
-Use this section to explain your method file. This could be broken up into several components as shown below:
-
-### States
-Here, you should describe the function of each state in your method file, both in terms of its overall purpose and also in terms of the details that make it distinct from other states. For example:
-\begin{itemize}
-\item \underline{OFF} - Resting state of ProCoDA. All sensors, relays, and pumps are turned off.
-\end{itemize}
-
-### Set Points
-Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
-
+Before running the experiments, the team ensured that the prototype was water tight, in order to collect accurate data regarding the flow rates of injection and extraction.
 ## Python Code
-
 ### Variables
-$g$: gravity
-$\sigma$: dispersion
-$a$: amplitude
-$h$: water depth
-$H$: distance from wave crest to trough (2$a$)
-$T$: wave period
-$\lambda$: wavelength
-$k$: wavenumber
-$c_p$: celerity (wave phase speed)
-$P$: pressure
-$F$: force
-$u$, $w$: x-velocity, z-velocity components
+$area$: area of the sand bed
+$areamm$: area in mm
+$backwashvelocity$: velocity of water in the backwash stream
+$filterflow$: Minimum flow rate of the water
+$headloss$: Headloss
+$temp$: Temperature of operation
+$\nu$: Kinematic Viscosity of water based on temperature
+$piperough$: k, pipe roughness
+$diamtube$: tube diameter
+
 
 ```python
-# Comment
+import math
+import numpy as np
+import pandas as pd
+from aguaclara.core.units import unit_registry as u
+from aguaclara.core import pipes as pipe
+from aguaclara.core import physchem as chem
+
+area = 100*u.cm**2
+areamm = area.to(u.mm**2)
+backwashvelocity = 11*u.mm/u.s
+filterflow = (backwashvelocity*areamm*2)/6
+print(filterflow.to(u.ml/u.s))
+
+headloss = 1*u.m
+Length = 1*u.m
+temp = 20*u.degC
+Nu = chem.viscosity_kinematic(temp)
+PipeRough = 0.1*u.mm
+KMinor = 2
+#to use to find diameter tube for the three tubes that will go in
+diamtube = chem.diam_pipe((filterflow/3), headloss, Length, Nu, PipeRough, KMinor)
+print(diamtube.to(u.mm)) #inner diamter of tube we would like to come out
+
 ```
 
-# Add/Delete/Change this Template as you see Fit
-When using this template keep in mind that this serves three purposes. The first is to provide your team feedback on your progress, assumptions, and conclusions. The second is to keep your team focused on what you are learning and doing for AguaClara. Another is to educate future teams on what you've learned and done. This document should be comprehensive, consistent, and well-written. With that in mind, add, subtract, or move sections. Reach out to the RAs and graders for help with figuring out what should or shouldn't include. Focus on how wonderful a reference you are making through this and work hard on communicating amongst yourselves and with future teammates. (Delete this section before submitting)
 
 ```python
 # To convert the document from markdown to pdf
