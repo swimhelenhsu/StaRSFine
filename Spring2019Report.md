@@ -17,7 +17,9 @@ Explain the techniques you have used to acquire additional data and insights. Re
 
 Below, some example sections are given. Sectioning the report is meant to keep similar information together.  Continue making sections as necessary, or delete sections if you do not need them. Feel free to add subsubsections to further delineate the information. For example, under the Experimental Apparatus section below, the EStaRS team might consider having sections such as "Filter Design" and "Filter Fabrication".
 
-### Experimental Apparatus
+### Experimental Apparatus Design
+### Experimental Apparatus Fabrication
+
 Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way. Create a schematic drawing of the apparatus (not a photo) that has clearly labeled components, flow paths, sensors, and reactor geometry.
 
 * Design (calculations, constraints):
@@ -46,46 +48,6 @@ Explain your apparatus setup using enough detail such that future teams can recr
 * Complications in construction
 * If already constructed: write a brief summary of important constraints, include any revisions to apparatus, also reference the prior report where construction is described
 
-### Procedure- dont do yet
-Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
-
-## Results and Analysis- dont do yet
-Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.
-In other words, there should not be two distinct paragraphs, but instead one paragraph containing one result and the interpretation and analysis of this result. Here are some guiding questions for results and analysis:
-
-When describing your results, present your data, using the guidelines below:
-* What happened? What did you find?
-* Show your experimental data in a professional way.
-
-```python
-import aguaclara.research.procoda_parser as pp
-import matplotlib.pyplot as plt
-import numpy as np
-
-time, influent_turbidity, effluent_turbidity = pp.get_data_by_time(
-      path="Data", columns=[0, 3, 4], start_date="6-14-2018",
-      start_time="15:40", end_time="23:30")
-elapsed_time = (np.array(time)-time[0])*24
-
-fig, ax1 = plt.subplots()
-ax1.set_xlabel("Time (hours)")
-ax1.set_ylabel("Effluent Turbidity (NTU)")
-line1, = ax1.plot(elapsed_time, effluent_turbidity, color="blue")
-
-ax2 = ax1.twinx()
-ax2.set_ylabel("Influent Turbidity (NTU)")
-ax2.set_ylim(60,120)
-line2, = ax2.plot(elapsed_time, influent_turbidity, color="green")
-
-plt.legend((line1, line2), ("Effluent", "Influent"))
-plt.savefig("Turbidity.png")
-```
-<p align="center">
-  <img src="/Images/Turbidity.png">
-</p>
-<p align="center">
-  Figure 3. Descriptive captions are very important for figures. Rather than including a title above your figure, write a caption below.
-</p>
 
 ### Figure requirements
  - Create the graph using python (not Excel)
