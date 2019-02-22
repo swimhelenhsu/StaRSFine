@@ -3,10 +3,15 @@
 #### February 22, 2019
 
 ## Abstract
-Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)
+
+StaRS FInE is critically important because the subteam deals with one of the last steps in the AguaClara process (filtration). The current outtake pipes are problematic because they clog with chemical deposits, and the best method of cleaning them involves wasting clean water. StaRS FInE's suggested remedy to combat this problem involves designing and implementing a “Christmas tree” design that uses gravity exclusion principles to keep sand out and has larger openings to prevent clogs. The main focus of this semester are testing the model printed last semester with sand and finding the failure velocity with that model.
+
 
 ## Introduction
-Explain how the completion of your challenge will affect AguaClara and the mission of providing safe drinking water (or sustainable wastewater treatment!). If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?
+
+This is StaRS FInE's second semester since the fall of 2015. The subteam was brought back in the fall of 2018 because of its continued relevance and lack of a sustainable solution. The two methods of cleaning the clogged pipes currently are either pouring buckets of acid into the filter, or by running clean water very quickly through the outlet pipes to clean them (as in Zamorano University). In both of these scenarios, the filter being cleaned can't be used, and there is unnecessary waste of clean water whether it is being used to purge the pipe or to divert water from the filters while they are being cleaned. The team’s goal is to develop and test an outlet system that does not clog with chemical deposits and prevents sand from escaping. Past teams failed because of issues with sand getting into their outlet pipe design during filtration. Encouragingly, they did develop designs that worked during backwash, the filtration velocity was just too great and the water effluent contained a great amount of sand. Because this problem occurs at the filtration outtake, the team must be very conscious of head loss and the major and minor losses coming from the outlet pipe and the design geometry.
+
+The goals of this semester are to test the apparatus that was the result of the work of the Fall 2018 team with sand, discover the failure velocity for this apparatus, and make necessary changes to the spacing of the branches and angles. These changes will be based on the research of Horizontal Filtration's work with their new model, the results of our testing, and the library of AguaClara fluid mechanics calculations. The team must also discover what mode of failure must be guarded against, in other words, does the sand move up as a solid plug or do individual grains make their way through the outlet pipe when filtration speed gets too fast? Last semester's design is promising, but there is still a lot of testing to do before it is ready to be proposed as a solution. 
 
 ## Literature Review and Previous Work
 
