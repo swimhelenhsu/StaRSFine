@@ -9,7 +9,12 @@ Briefly summarize your previous work, goals and objectives, what you have accomp
 Explain how the completion of your challenge will affect AguaClara and the mission of providing safe drinking water (or sustainable wastewater treatment!). If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?
 
 ## Literature Review and Previous Work
-Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication. [(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)
+
+The work of StaRS FInE has not been investigated outside of AguaClara making the project exciting, and requiring innovation on the part of each team member. In the past the team has found examples related to filters from aqua-ponics and various filtering methods, however the alternate systems are more complicated, and would encounter the same issues that AguaClara filters already face. The StaRS FInE team members are the same this semester as last semester, however last semester the team worked mainly on research, and this semester the project has shifted to fabrication.
+
+Last semester the team encountered a few key insights. First, the team tested at what angle sand falls in a pipe filled with water to determine an optimal angle where sand escaping the gravity exclusion zone is still likely to fall back down. The optimal angle was determined to be 26.64 degrees.  
+
+A christmas tree design was created in onshape and 3D printed to fit inside of a 4-inch tube. Unlike previous teams dating back to 2015, the fall 2018 team ensured that the flow rate, velocity, and wing area of the apparatus all work together to prevent sand from exiting during backwash. This apparatus is still being used this semester as a main tool for research.
 
 
 ## Methods
