@@ -23,6 +23,24 @@ Explain the techniques you have used to acquire additional data and insights. Re
 Below, some example sections are given. Sectioning the report is meant to keep similar information together.  Continue making sections as necessary, or delete sections if you do not need them. Feel free to add subsubsections to further delineate the information. For example, under the Experimental Apparatus section below, the EStaRS team might consider having sections such as "Filter Design" and "Filter Fabrication".
 
 ### Experimental Apparatus Design
+The apparatus was designed in Onshape last semester, first including a 3D-printed horizontal filter, and then the 4-Inch diameter PVC pipe that will become the prototype for StaRS FInE testing of the gravity exclusion method for extraction. Below are the Onshape part studio, the Onshape drawings, and the photo of the newly fabricated apparatus. After assembling the apparatus, it was designed to have outlet holes in the filter and in the prototype that match tubing size for the outlet flow rate. The tubes are glued to ensure water tight extraction, as shown below.
+
+<p align="center"> <img
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/OnshapeDrawingApparatus.png" width= "350"> </p>
+<p align="center">
+  Figure 1. The Onshape Drawing of the prototype.
+</p>
+<p align="center"> <img
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/OnshapePartStudioApparatus.png" width= "350"> </p>
+<p align="center">
+  Figure 2. The part studio design for a more realistic view.
+</p>
+<p align="center"> <img
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ApparatusRealLife.JPG" width= "350"> </p>
+<p align="center">
+  Figure 3. The apparatus with extraction tubes attached.
+</p>
+
 ### Experimental Apparatus Fabrication
 
 Explain your apparatus setup using enough detail such that future teams can recreate your apparatus. Make sure to explain why you built it this way. Create a schematic drawing of the apparatus (not a photo) that has clearly labeled components, flow paths, sensors, and reactor geometry.
