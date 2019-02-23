@@ -49,16 +49,8 @@ The apparatus was fabricated last semester. Upon revisiting the design at the be
 Eventually, the team used the precision drill to create new holes in the filter and in the PVC tube. The holes were attached to tubing which will be hooked up to a peristaltic pump and ProCoDa box to monitor extraction.
 
 
-* Design (calculations, constraints):
-  * Use LaTeX to format equations in line ($\frac{-b\pm\sqrt{b^2-4ac}}{2a}$) or centered:
-
-  \[\frac{-b\pm\sqrt{b^2-4ac}}{2a}\]
-
 ## Future Work
 In the next several weeks of research, the team plans to test the apparatus for compatibility with sand and fluidization velocities. If the system is successful, the team will be advancing on the first bridged horizontal filter extraction method. This research could be very helpful to current and new plants.
-
-## Bibliography
-Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
 
 # Manual
 The goal of this section provides all of the guidance that would be necessary for a future team to pick up work where the team left off.
@@ -73,19 +65,27 @@ The current apparatus design was revisited. The team noted the small outlet pipe
 Shaving the glue from the previous tubes, the team detached the tubes. Using the new calculated inner diameter, the team found tubing that matched met the minimum standard and considered how it would affect the design of the 3D printed pine-tree filter which was already fit to the prototype PVC tube by holes drilled. In the OnShape drawing, the team determined that, if the filter was taken from the prototype, respective sized holes could be drilled with the drill press. The holes were designed to be offset from the original holes while still remaining in the bounds of the upper and lower wings. Holes were drilled to match these on the 4-Inch PVC prototype.
 
 ## Experimental Checklist
-Before running the experiments, the team ensured that the prototype was watertight, in order to collect accurate data regarding the flow rates of injection and extraction.
+Before running the experiments, the team ensured that the prototype was watertight in order to collect accurate data regarding the flow rates of injection and extraction.
 
 ## Python Code
 ### Variables
-$area$: area of the sand bed
-$areamm$: area in mm
-$backwashvelocity$: velocity of water in the backwash stream
-$filterflow$: Minimum flow rate of the water
-$headloss$: Headloss
-$temp$: Temperature of operation
-$\nu$: Kinematic Viscosity of water based on temperature
-$piperough$: k, pipe roughness
-$diamtube$: tube diameter
+$area$ : area of the sand bed
+
+$areamm$ : area in mm
+
+$backwashvelocity$ : velocity of water in the backwash stream
+
+$filterflow$ : Minimum flow rate of the water
+
+$headloss$ : Headloss
+
+$temp$ : Temperature of operation
+
+$\nu$ : Kinematic Viscosity of water based on temperature
+
+$piperough$ : k, pipe roughness
+
+$diamtube$ : tube diameter
 
 
 ```python
@@ -112,10 +112,4 @@ KMinor = 2
 diamtube = chem.diam_pipe((filterflow/3), headloss, Length, Nu, PipeRough, KMinor)
 print(diamtube.to(u.mm)) #inner diamter of tube we would like to come out
 
-```
-
-
-```python
-# To convert the document from markdown to pdf
-pandoc Name_of_this_file.md -o TeamName_Research_Report.pdf
 ```
