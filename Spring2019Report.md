@@ -22,21 +22,21 @@ The work of StaRS FInE has not been investigated outside of AguaClara making the
 
 Last semester the team encountered a few key insights. First, the team tested at what angle sand falls in a pipe filled with water to determine an optimal angle where sand escaping the gravity exclusion zone is still likely to fall back down. The optimal angle was determined to be 26.64 degrees.  
 
-A christmas tree **[Add quotes around this name so it's clear that you didn't actually design a christmas tree on OnShape.]** design was created in onshape **[It is OnShape, not onshape. This is an actual company so you must properly write out their name.]** and 3D printed to fit inside of a 4-inch tube. Unlike previous teams dating back to 2015, the fall 2018 **[Capitalize the "F" in "Fall".]** team ensured that the flow rate, velocity, and wing area of the apparatus all work together to prevent sand from exiting during backwash. This apparatus is still being used this semester as a main tool for research.
+A christmas tree **[Add quotes around this name so it's clear that you didn't actually design a christmas tree on OnShape.]** design was created in OnShape **[It is OnShape, not OnShape. This is an actual company so you must properly write out their name.]** and 3D printed to fit inside of a 4-inch tube. Unlike previous teams dating back to 2015, the fall 2018 **[Capitalize the "F" in "Fall".]** team ensured that the flow rate, velocity, and wing area of the apparatus all work together to prevent sand from exiting during backwash. This apparatus is still being used this semester as a main tool for research.
 
 
 ## Methods
 
 ### Experimental Apparatus Design
-The apparatus was designed in Onshape **[Same here with "OnShape" not "Onshape"!! I'll stop mentioning it from here on, but make sure to check other parts of your manual for the same issue.]** last semester, first including a 3D-printed horizontal filter, and then the 4-Inch diameter PVC pipe that will become the prototype for StaRS FInE testing of the gravity exclusion method for extraction. For more information on this infrastructure, reference the Fall 2018 Report. Below are the Onshape part studio, the Onshape drawings, and the photo of the newly fabricated apparatus. After assembling the apparatus, it was designed to have outlet holes in the filter and in the prototype that match tubing size for the outlet flow rate. The tubes are glued to ensure watertight extraction, as shown below.
+The apparatus was designed in OnShape last semester, first including a 3D-printed horizontal filter, and then the 4-Inch diameter PVC pipe that will become the prototype for StaRS FInE testing of the gravity exclusion method for extraction. For more information on this infrastructure, reference the Fall 2018 Report. Below are the OnShape part studio, the OnShape drawings, and the photo of the newly fabricated apparatus. After assembling the apparatus, it was designed to have outlet holes in the filter and in the prototype that match tubing size for the outlet flow rate. The tubes are glued to ensure watertight extraction, as shown below.
 
 <p align="center"> <img
-src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/OnshapeDrawingApparatus.png" width= "350"> </p>
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/OnShapeDrawingApparatus.png" width= "350"> </p>
 <p align="center">
-  Figure 1. The Onshape Drawing of the prototype.
+  Figure 1. The OnShape Drawing of the prototype.
 </p>
 <p align="center"> <img
-src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/OnshapePartStudioApparatus.png" width= "350"> </p>
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/OnShapePartStudioApparatus.png" width= "350"> </p>
 <p align="center">
   Figure 2. The part studio design for a more realistic view.
 </p>
@@ -47,7 +47,7 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Apparat
 </p>
 
 ### Experimental Apparatus Fabrication
-The apparatus was fabricated last semester. Upon revisiting the design at the beginning of the semester, Monroe suggested that the team perform calculations to determine if the prototype could withstand flow rates used in the actual plants. Accounting for headless and the flow rate calculated below in the Manual section, the team spent the beginning of this semester planning for and re-fabricating the outlet holes to adjust. The space between the wings in the filter, as show below in figure 4, was minimal. The team used Onshape to determine if increasing the hole size to fit larger diameter outlet tubing was possible. It was determined that the holes were to be offset in order to account for size without disrupting the functionality of the filter.
+The apparatus was fabricated last semester. Upon revisiting the design at the beginning of the semester, Monroe suggested that the team perform calculations to determine if the prototype could withstand flow rates used in the actual plants. Accounting for headless and the flow rate calculated below in the Manual section, the team spent the beginning of this semester planning for and re-fabricating the outlet holes to adjust. The space between the wings in the filter, as show below in figure 4, was minimal. The team used OnShape to determine if increasing the hole size to fit larger diameter outlet tubing was possible. It was determined that the holes were to be offset in order to account for size without disrupting the functionality of the filter.
 
 Eventually, the team used the precision drill to create new holes in the filter and in the PVC tube. The holes were attached to tubing which will be hooked up to a peristaltic pump and ProCoDa box to monitor extraction.
 
@@ -116,5 +116,3 @@ diamtube = chem.diam_pipe((filterflow/3), headloss, Length, Nu, PipeRough, KMino
 print(diamtube.to(u.mm)) #inner diamter of tube we would like to come out
 
 ```
-
-**[Good job on your first manual draft! Thanks for keeping the writing clear and concise. I'm excited to see the work you guys do through the semester!]**
