@@ -31,25 +31,38 @@ A christmas tree **[Add quotes around this name so it's clear that you didn't ac
 The apparatus was designed in OnShape last semester, first including a 3D-printed horizontal filter, and then the 4-Inch diameter PVC pipe that will become the prototype for StaRS FInE testing of the gravity exclusion method for extraction. For more information on this infrastructure, reference the Fall 2018 Report. Below are the OnShape part studio, the OnShape drawings, and the photo of the newly fabricated apparatus. After assembling the apparatus, it was designed to have outlet holes in the filter and in the prototype that match tubing size for the outlet flow rate. The tubes are glued to ensure watertight extraction, as shown below.
 
 <p align="center"> <img
-src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/OnShapeDrawingApparatus.png" width= "350"> </p>
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ApparatusOnshape.png" width= "350"> </p>
 <p align="center">
   Figure 1. The OnShape Drawing of the prototype.
 </p>
 <p align="center"> <img
-src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/OnShapePartStudioApparatus.png" width= "350"> </p>
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/FIlterDrawing.png" width= "350"> </p>
 <p align="center">
-  Figure 2. The part studio design for a more realistic view.
+  Figure 2. The part studio design of the 3D printed filter.
+</p>
+<p align="center"> <img
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ApparatusDrawing.png" width= "350"> </p>
+<p align="center">
+  Figure 3. The part studio design of the whole prototype.
 </p>
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ApparatusRealLife.JPG" width= "350"> </p>
 <p align="center">
-  Figure 3. The apparatus with extraction tubes attached.
+  Figure 4. The apparatus with extraction tubes attached.
 </p>
 
+For experiments conducted thus far, the filter's ability to form sand exclusion zones was tested. Monroe suggested that the team best simulate real life aguaclara filter conditions. Therefore, it was designed so that the inlet, below the filter to simulate filtration, and the outlet, extraction aimed at the sand exclusion zones, were water tight.
+
+The design also considered the rate at which injection and extraction would occur at. Essentially, the respective injection and extraction rates were calculated based on backwash velocity and the respective design of the team's apparatus. This is calculated below in python in the manual.
+
+The last design consideration was converting between mL/s and RPM on the peristaltic pump that was connected to the inlet and outlet tubing. Using ProCoDa, the outlet and inlet flow in mL/s and the tubing sizes (16 for outlet and 18 for inlet), the team made new set points that converted into RPM values for the pump.
+
 ### Experimental Apparatus Fabrication
-The apparatus was fabricated last semester. Upon revisiting the design at the beginning of the semester, Monroe suggested that the team perform calculations to determine if the prototype could withstand flow rates used in the actual plants. Accounting for headless and the flow rate calculated below in the Manual section, the team spent the beginning of this semester planning for and re-fabricating the outlet holes to adjust. The space between the wings in the filter, as show below in figure 4, was minimal. The team used OnShape to determine if increasing the hole size to fit larger diameter outlet tubing was possible. It was determined that the holes were to be offset in order to account for size without disrupting the functionality of the filter.
+The apparatus was fabricated last semester. Upon revisiting the design at the beginning of the semester, Monroe suggested that the team perform calculations to determine if the prototype could withstand flow rates used in the actual plants. Accounting for headless and the flow rate calculated below in the python code in the Manual section, the team spent the beginning of this semester planning for and re-fabricating the outlet holes to adjust. The space between the wings in the filter, as show below in figure 4, was minimal. The team used OnShape to determine if increasing the hole size to fit larger diameter outlet tubing was possible. It was determined that the holes were to be offset in order to account for size without disrupting the functionality of the filter.
 
 Eventually, the team used the precision drill to create new holes in the filter and in the PVC tube. The holes were attached to tubing which will be hooked up to a peristaltic pump and ProCoDa box to monitor extraction.
+
+### Procedure
 
 
 ## Future Work
@@ -100,10 +113,18 @@ from aguaclara.core import pipes as pipe
 from aguaclara.core import physchem as chem
 
 area = 100*u.cm**2
+#area of the filter bed for simulations
 areamm = area.to(u.mm**2)
 backwashvelocity = 11*u.mm/u.s
 filterflow = (backwashvelocity*areamm*2)/6
+#filterflow is the flow rate of water coming out of each filter
 print(filterflow.to(u.ml/u.s))
+injectionflow = filterflow*6
+#injectionflow is the rate at which the water would be coming through the filter (all six layers of filter through the filter)
+print(injectionflow.to(u.ml/u.s))
+extractionflow = filterflow*2
+#extractionflow is the flow rate at which the team will extract water from the filter because water is coming through from above and below the filter
+print(extractionflow.to(u.ml/u.s))
 
 headloss = 1*u.m
 Length = 1*u.m
