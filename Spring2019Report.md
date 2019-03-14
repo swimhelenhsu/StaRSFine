@@ -28,6 +28,8 @@ A christmas tree **[Add quotes around this name so it's clear that you didn't ac
 ## Methods
 
 ### Experimental Apparatus Design
+#### Trial 1
+#### Trial 2
 The apparatus was designed in OnShape last semester, first including a 3D-printed horizontal filter, and then the 4-Inch diameter PVC pipe that will become the prototype for StaRS FInE testing of the gravity exclusion method for extraction. For more information on this infrastructure, reference the Fall 2018 Report. Below are the OnShape part studio, the OnShape drawings, and the photo of the newly fabricated apparatus. After assembling the apparatus, it was designed to have outlet holes in the filter and in the prototype that match tubing size for the outlet flow rate. The tubes are glued to ensure watertight extraction, as shown below.
 
 <p align="center"> <img
@@ -58,22 +60,7 @@ The design also considered the rate at which injection and extraction would occu
 The last design consideration was converting between mL/s and RPM on the peristaltic pump that was connected to the inlet and outlet tubing. Using ProCoDa, the outlet and inlet flow in mL/s and the tubing sizes (16 for outlet and 18 for inlet), the team made new set points that converted into RPM values for the pump.
 
 ### Experimental Apparatus Fabrication
-The apparatus was fabricated last semester. Upon revisiting the design at the beginning of the semester, Monroe suggested that the team perform calculations to determine if the prototype could withstand flow rates used in the actual plants. Accounting for headless and the flow rate calculated below in the python code in the Manual section, the team spent the beginning of this semester planning for and re-fabricating the outlet holes to adjust. The space between the wings in the filter, as show below in figure 4, was minimal. The team used OnShape to determine if increasing the hole size to fit larger diameter outlet tubing was possible. It was determined that the holes were to be offset in order to account for size without disrupting the functionality of the filter.
-
-Eventually, the team used the precision drill to create new holes in the filter and in the PVC tube. The holes were attached to tubing which will be hooked up to a peristaltic pump and ProCoDa box to monitor extraction.
-
-
-
-### Procedure
-
-
-## Future Work
-In the next several weeks of research, the team plans to test the apparatus for compatibility with sand and fluidization velocities. If the system is successful, the team will be advancing on the first bridged horizontal filter extraction method. This research could be very helpful to current and new plants.
-
-# Manual
-The goal of this section provides all of the guidance that would be necessary for a future team to pick up work where the team left off.
-
-## Fabrication Details
+#### Trial 1
 The current apparatus design was revisited. The team noted the small outlet pipe size and did the below calculation to determine that minimum pipe diameter was not met.
 
 | Respective Flow Rate      | Minimum Tube Inner Diameter  
@@ -81,9 +68,24 @@ The current apparatus design was revisited. The team noted the small outlet pipe
 | 36.67 milliliter / second | 3.762 millimeter      |
 
 Shaving the glue from the previous tubes, the team detached the tubes. Using the new calculated inner diameter, the team found tubing that matched met the minimum standard and considered how it would affect the design of the 3D printed pine-tree filter which was already fit to the prototype PVC tube by holes drilled. In the OnShape drawing, the team determined that, if the filter was taken from the prototype, respective sized holes could be drilled with the drill press. The holes were designed to be offset from the original holes while still remaining in the bounds of the upper and lower wings. Holes were drilled to match these on the 4-Inch PVC prototype.
+#### Trial 2
+The apparatus was fabricated last semester. Upon revisiting the design at the beginning of the semester, Monroe suggested that the team perform calculations to determine if the prototype could withstand flow rates used in the actual plants. Accounting for headless and the flow rate calculated below in the python code in the Manual section, the team spent the beginning of this semester planning for and re-fabricating the outlet holes to adjust. The space between the wings in the filter, as show below in figure 4, was minimal. The team used OnShape to determine if increasing the hole size to fit larger diameter outlet tubing was possible. It was determined that the holes were to be offset in order to account for size without disrupting the functionality of the filter.
 
-## Experimental Checklist
+Eventually, the team used the precision drill to create new holes in the filter and in the PVC tube. The holes were attached to tubing which will be hooked up to a peristaltic pump and ProCoDa box to monitor extraction.
+
+### Testing Feasibility of Design
 Before running the experiments, the team ensured that the prototype was watertight in order to collect accurate data regarding the flow rates of injection and extraction.
+
+#### Trial 1
+#### Trial 2
+
+## Future Work
+In the next several weeks of research, the team plans to test the apparatus for compatibility with sand and fluidization velocities. If the system is successful, the team will be advancing on the first bridged horizontal filter extraction method. This research could be very helpful to current and new plants.
+
+# Manual
+The goal of this section provides all of the guidance that would be necessary for a future team to pick up work where the team left off.
+
+## ProCoDa
 
 ## Python Code
 ### Variables
