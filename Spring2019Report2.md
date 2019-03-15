@@ -2,8 +2,6 @@
 #### Lily Falk, Sam Hertle, and Whitney Denison
 #### March 15, 2019
 
-**[Sidney: Hey team! I will be using bolded square brackets to comment on your manual.]**
-
 ## Abstract
 
 StaRS FInE was critically important because the subteam dealt with one of the last steps in the AguaClara process - filtration. The outtake pipes first used in vertical filtration were problematic because over time they became clogged with chemical deposits. In order to clean the filters and wash away the deposits, clean water was emptied from the larger outlets to increase outflow velocity through the slots to dislodge the chemicals. In the process, clean water was wasted. StaRS FInE worked on a design that had the potential to combat this problem by making use of a “Christmas tree” design. The design relied on larger openings to prevent clogs, as well as the gravity exclusion principle to prevent sand from exiting the outlet pipes. The focus of StaRS FInE in the spring of 2019 was to test the three dimensional model printed the previous semester with sand and find what velocity leads to failure in this model.
