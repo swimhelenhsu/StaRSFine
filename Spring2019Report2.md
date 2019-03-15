@@ -136,12 +136,8 @@ In the next several weeks of research, the team plans to test the apparatus for 
 The goal of this section provides all of the guidance that would be necessary for a future team to pick up work where the team left off.
 
 ## ProCoDa
-<<<<<<< HEAD:Spring2019Report.md
-uh
-=======
 
 The ProCoDa used thus far in the semester has been limited to making sure the input and output peristaltic pumps are running at the correct velocity for their tube size. The team has not yet run an extended experiment regulated by ProCoDa.
->>>>>>> 6851bd9debd9f5bdecb53333859562111b206f96:Spring2019Report2.md
 
 ## Python Code
 ### Variables
