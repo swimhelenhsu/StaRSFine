@@ -69,6 +69,8 @@ In the design of the second experimental apparatus, the team reconsidered the fl
 | ------------------- | -------------------- |
 | 220.02 mL/s         | 36.67 mL/s           |
 
+Again, more information about these number can be found in the python below in the [manual](#Manual).
+
 The team used the same method of filling the prototype to the top before draining and turning off the extraction before the water level reached below the extraction tubes.
 
 ### Experimental Apparatus Fabrication
@@ -97,6 +99,8 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Inverte
 #### Trial 2
 In the second trial, the team drained the water and sand from the prototype. To better simulate plant conditions, Monroe suggested that the team first fill the prototype with water, and add sand from the top. This would create sand exclusion zones initially, that just needed to be maintained during water flow.
 
+**image of the water in the appparatus**
+
 Using the newly calculated flow rates, the apparatus was set up the same way as in the first trial, with detail in respect to the order of addition of sand and water. This also prevented the sand from entering the injection tubing because there was a constant water stream disallowing it. When the sand nearly filled the tube, the upper lid was secured and the extraction started.
 
 ### Feasibility of Design and Analysis
@@ -121,6 +125,9 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Trial1T
 </p>
 
 #### Trial 2
+Air bubbles
+exclusion zones existed
+was only pulling water from the third tube
 
 ## Future Work
 In the next several weeks of research, the team plans to test the apparatus for compatibility with sand and fluidization velocities. If the system is successful, the team will be advancing on the first bridged horizontal filter extraction method. This research could be very helpful to current and new plants.
@@ -130,6 +137,7 @@ The goal of this section provides all of the guidance that would be necessary fo
 
 ## ProCoDa
 uh
+
 ## Python Code
 ### Variables
 $area$ : area of the sand bed
