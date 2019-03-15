@@ -6,15 +6,13 @@
 
 ## Abstract
 
-StaRS FInE is critically important because the subteam deals with one of the last steps in the AguaClara process - filtration. The current outtake pipes are problematic because over time they become clogged with chemical deposits. In order to clean the filters and wash away the deposits, clean water is pushed back through to dislodge the chemicals. In the process, clean water is wasted. StaRS FInE has worked on a design that has the potential to combat this problem by making use of a “Christmas tree” design. The design relies on larger openings to prevent clogs, as well as the gravity exclusion principle to prevent sand from exiting the outlet pipes. The focus of StaRS FInE in the spring of 2019 is to test the three dimensional model printed last semester with sand and find what velocity leads to failure in this model.
-
-**[Overall comment: Please remember to write in past tense throughout the manual as it would be someone in the future~ reading your final manual. Refer to Will's Technical Writing Presentation or our team's Grammar Guidelines on [Confluence](https://confluence.cornell.edu/display/AGUACLARA/Grammar+Guidelines+for+Reports).]**
+StaRS FInE was critically important because the subteam dealt with one of the last steps in the AguaClara process - filtration. The outtake pipes first used in vertical filtration were problematic because over time they became clogged with chemical deposits. In order to clean the filters and wash away the deposits, clean water was emptied from the larger outlets to increase outflow velocity through the slots to dislodge the chemicals. In the process, clean water was wasted. StaRS FInE worked on a design that had the potential to combat this problem by making use of a “Christmas tree” design. The design relied on larger openings to prevent clogs, as well as the gravity exclusion principle to prevent sand from exiting the outlet pipes. The focus of StaRS FInE in the spring of 2019 was to test the three dimensional model printed the previous semester with sand and find what velocity leads to failure in this model.
 
 ## Introduction
 
-The spring of 2019 was StaRS FInE's second semester since the fall of 2015. The subteam was brought back in the fall of 2018 because of its continued relevance to AguaClara plants. The current filter system becomes clogged throughout the day with chemical deposits, and there has been a lack of a sustainable solution. Chemical deposits build up on the small slits of the filters, and eventually the plant must be temporarily shut off for clean water to be pushed back through. Alternatively, buckets of acid can be dumped into the filter to clean them, which is also not ideal. In both of these scenarios, the filter can not be used while it is cleaned, and there is unnecessary waste of clean water whether it is being used to purge the pipe or to divert water from the filters while they are being cleaned. The goal of StaRS FInE is to develop and test an outlet system that does not clog with chemical deposits and prevents sand from escaping. Past teams failed because of issues with sand getting into their outlet pipe design during filtration. The past team did develop designs that worked during backwash, however the filtration velocity was too large and the water effluent contained a significant amount of sand. Because this problem occurs at the filtration outtake, the team has been very conscious of head loss and the major and minor losses coming from the outlet pipe and the design geometry.
+The spring of 2019 was StaRS FInE's second semester since the fall of 2015. The subteam was brought back in the fall of 2018 because of its continued relevance to AguaClara plants. The filter system in place at this time became clogged throughout the day with chemical deposits, and there was no sustainable solution. Chemical deposits built up on the small slots of the filters, and eventually the plant had to be temporarily shut off for clean water to be pulled through and disposed of. Alternatively, buckets of acid could be poured into the filter to clean them, which was also not ideal. In both of these scenarios, the filter could not be used while it was cleaned, and there was unnecessary waste of clean water whether it was being used to purge the pipe or to divert water from the filters while they were being cleaned. The goal of StaRS FInE was to develop and test an outlet system that did not clog with chemical deposits and prevented sand from escaping. Past teams failed because of issues with sand getting into their outlet pipes during filtration. The past team did develop designs that worked during backwash, however the filtration velocity was too large for the parameters of their design and the water effluent contained a significant amount of sand. Because this problem occurred at the filtration outtake, the team was very conscious of head loss and the major and minor losses coming from the outlet pipe and the design geometry.
 
-The goals of this semester are to test the apparatus designed and 3D printed in the Fall 2018 with sand, discover the failure velocity for this apparatus, and make changes to the spacing of the branches and angles if necessary. These changes will be based on the some of the research of Horizontal Filtration (another AguaClara subteam), the results of our testing, and the library of AguaClara fluid mechanics calculations. The team must also discover the possible modes of failure. Failure modes may be caused by flow that is too fast, which may lead to sand moving up as a solid plug or small grains of sand getting into the outlet pipe. Last semester's design is promising, but there is still a lot of testing to do before it is ready to be proposed as a solution.
+The goals of this semester were to test the apparatus designed and 3D printed in the Fall 2018 with sand, discover the failure velocity for this apparatus, and make changes to the spacing of the branches and angles if necessary. These changes were based on the some of the research of Horizontal Filtration (another AguaClara subteam), the results of testing, and the library of AguaClara fluid mechanics calculations. The team also had to discover the possible modes of failure. Failure modes may be caused by flow that is too fast, which may lead to sand moving up as a solid plug or small grains of sand getting into the outlet pipe. Fall 2018's design was promising, but before it was ready to be proposed as a solution a lot more tests had to be run.
 
 ## Literature Review and Previous Work
 
@@ -53,9 +51,9 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Apparat
 </p>
 
 
-For experiments conducted thus far, the filter's ability to form sand exclusion zones was tested. Monroe suggested that the team best simulate real life aguaclara filter conditions. Therefore, it was designed so that the inlet, below the filter to simulate filtration.
+For experiments conducted thus far, the filter's ability to form sand exclusion zones was tested. Monroe suggested that the team best simulate real life AguaClara filter conditions. Therefore, it was designed so that the inlet, below the filter to simulate filtration.
 
-The design also considered the rate at which injection and extraction would occur at. Essentially, the respective injection and extraction rates were calculated based on backwash velocity and the respective design of the team's apparatus. This is calculated below in python in the [manual](#Manual). The values for the first trial were as follows:
+The design also considered the rate at which injection and extraction would occur at. Essentially, the respective injection and extraction rates were calculated based on backwash velocity and the respective design of the team's apparatus. This is calculated below in Python code in the [manual](#Manual). The values for the first trial were as follows:
 | Injection Flow Rate     | Extraction Flow Rate
 |---------------------------|-----------------------|
 | 36.67 mL/s | 18.36 mL/s      |
@@ -91,7 +89,7 @@ The team made the mistake of filling the apparatus with sand and then inverting 
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/InvertedApparatus.png" width= "350"> </p>
 <p align="center">
-  Figure . The colored sand filling the exclusion zones as the apparatus was inverted.
+  Figure 5. The colored sand filling the exclusion zones as the apparatus was inverted.
 </p>
 
 #### Trial 2
@@ -111,16 +109,18 @@ This trial gave the team an indication of how to move on, but should be noted th
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Trial1Filter.jpg" width= "350"> </p>
 <p align="center">
-  Figure . The exclusion zone on the lower structure forming.
+  Figure 6. The exclusion zone on the lower structure forming.
 </p>
 
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Trial1Tubes.png" width= "350"> </p>
 <p align="center">
-  Figure . The extraction tubes pulling water without sand from the lower exclusion zone. Note the top tube was pulling sand from the most failed exclusion zone and the middle was pulling air.
+  Figure 7. The extraction tubes pulling water without sand from the lower exclusion zone. Note the top tube was pulling sand from the most failed exclusion zone and the middle was pulling air.
 </p>
 
 #### Trial 2
+
+The biggest issue with the second trial was that only the top tube pulled water out. This can be explained by a couple of possibilities. There was water leaking through the middle and bottom tubes, suggesting that they were not watertight and so they may have been pulling air only. There could also be a problem with how we join the three tubes together, either with it not being airtight or with an unequal distribution of suction from the peristaltic pump. Encouragingly, the top tube did not have any sand in it. This means that at least one of the gravity exclusion zones formed and was capable of operating at the necessary velocity without reaching either failure mode.
 
 ## Future Work
 In the next several weeks of research, the team plans to test the apparatus for compatibility with sand and fluidization velocities. If the system is successful, the team will be advancing on the first bridged horizontal filter extraction method. This research could be very helpful to current and new plants.
@@ -129,7 +129,9 @@ In the next several weeks of research, the team plans to test the apparatus for 
 The goal of this section provides all of the guidance that would be necessary for a future team to pick up work where the team left off.
 
 ## ProCoDa
-uh
+
+The ProCoDa used thus far in the semester has been limited to making sure the input and output peristaltic pumps are running at the correct velocity for their tube size. The team has not yet run an extended experiment regulated by ProCoDa.
+
 ## Python Code
 ### Variables
 $area$ : area of the sand bed
