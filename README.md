@@ -9,10 +9,10 @@ Whitney Denison (wwd23@cornell.edu)
 
 #### Team Materials and Reports
 
-Link to Symposium Presentation Slides (https://docs.google.com/presentation/d/1b8HB0uBHJ7hJXRMDNF7Oz6hhu_W4NX50pGtOUANLa24/edit?usp=sharing)
+Link to Symposium Presentation Slides from Fall 2018 (https://docs.google.com/presentation/d/1b8HB0uBHJ7hJXRMDNF7Oz6hhu_W4NX50pGtOUANLa24/edit?usp=sharing)
 
-Link to Final Presentation Slides (https://docs.google.com/presentation/d/1avSX92d7xoNCMWHWEPGRrGksHfoAGqO14EYxYyUkVE4/edit?usp=sharing)
+Link to Final Presentation Slides from Fall 2018 (https://docs.google.com/presentation/d/1avSX92d7xoNCMWHWEPGRrGksHfoAGqO14EYxYyUkVE4/edit?usp=sharing)
 
-Link to Final Presentation Video (https://youtu.be/_pbvd0zLTmk)
+Link to Final Presentation Video from Fall 2018 (https://youtu.be/_pbvd0zLTmk)
 
-Final Report Included Above
+Link to Symposium Presentation Slides from Spring 2019 (https://docs.google.com/presentation/d/1VgsgvQRKYfryqZyAZmMtXs9kBILLDlO60nedUG56xgE/edit?usp=sharing)
