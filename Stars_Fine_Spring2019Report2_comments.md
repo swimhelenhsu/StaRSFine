@@ -11,7 +11,7 @@ StaRS FInE is critically important **[a bit redundant no? I would just choose ei
 The spring of 2019 was StaRS FInE's second semester since the fall of 2015. The subteam was brought back in the fall of 2018 because of its continued relevance to AguaClara plants **[So third semester overall? Wording is a little confusing]**. The filter system [used then] became clogged throughout the day with chemical deposits **[which chemicals? PaCl?]** , ~~and~~ **[but]** there was no sustainable solution **[to the clogging]**. Chemical deposits built up on the small slots of the filters, and eventually the plant had to be temporarily shut off for clean water to be pulled through and disposed of **[Last part of this sentence is confusing. Is there a term for that specifically? I think in Honduras they called that purging but I may be wrong. If there isn't rephrase "pulled through"]**. Alternatively, buckets of acid could be poured into the filter to clean them, which was also not ideal. In both of these scenarios, the filter could not be used while it was cleaned, and there was unnecessary waste of clean water whether it was being used to purge the pipe or to divert water from the filters while they were being cleaned. The goal of StaRS FInE was to develop and test an outlet system that did not clog with chemical deposits and prevented sand from escaping. Past teams failed because of issues with sand getting into their outlet pipes during filtration. The past team did develop designs that worked during backwash, however the filtration velocity was too large for the parameters of their design and the water effluent contained a significant amount of sand. Because this problem occurred at the filtration outtake, the team was very conscious of head loss and the major and minor losses coming from the outlet pipe and the design geometry.
 
 The goals of this semester were to test the apparatus **[,]** designed and 3D printed in the Fall 2018 **[,]** with sand, discover the failure velocity for this apparatus, and make changes to the spacing of the branches and angles if necessary. These changes were based on the some of the research of Horizontal Filtration (another AguaClara subteam), the results of [HorFi testing or testing done by past FInE teams?] testing, and the library of AguaClara fluid mechanics calculations. The team also had to discover the possible modes of failure. Failure modes may be caused by flow that is too fast, which may lead to sand moving up as a solid plug or small grains of sand getting into the outlet pipe. Fall 2018's design was promising, but before it was ready to be proposed as a solution **[,]** a lot more tests had to be run.
-
+**[Include and explain gravity exclusion/sand exclusion zones]**
 ## Literature Review and Previous Work
 
 The work of StaRS FInE has not been investigated outside of AguaClara **[,]** making the project exciting, ~~and~~ requiring innovation on the part of each team member. In the past **[,]** the team has found examples related to filters from aquaponics and various filtering methods. That being said, the alternate systems are more complicated, and would encounter the same issues that AguaClara filters already face. The StaRS FInE team members are the same this semester as last semester, however last semester the team worked mainly on research, ~~and~~ **[while/whereas]** this semester the project has shifted to fabrication.
@@ -26,26 +26,26 @@ A "Christmas tree" design was created in OnShape and 3D printed to fit inside of
 
 ### Experimental Apparatus Design
 #### Trial 1
-The apparatus was designed in OnShape last semester, first including a 3D-printed horizontal filter, and then ~~the~~ **[a]** 4-Inch diameter PVC pipe that ~~will~~ **[would]** become the prototype for StaRS FInE testing of the gravity exclusion method for extraction. For more information on this ~~infrastructure~~ **[apparatus]**, reference the Fall 2018 Report. Below are the OnShape part studio, the OnShape drawings, and the photo of the newly fabricated apparatus. After assembling the apparatus, it was designed to have outlet holes in the filter and in the prototype that match tubing size for the outlet flow rate.
+The apparatus was designed in OnShape last semester, first including a 3D-printed horizontal filter, and then a **[a]** 4-Inch diameter PVC pipe that would **[would]** become the prototype for StaRS FInE testing of the gravity exclusion method for extraction. For more information on this apparatus **[apparatus]**, reference the Fall 2018 Report. Below are the OnShape part studio, the OnShape drawings, and the photo of the newly fabricated apparatus. After assembling the apparatus, it was designed to have outlet holes in the filter and in the prototype that match tubing size for the outlet flow rate.
 
 **[What is gravity exclusion method? This was not explained in the intro]**
 <p align="center"> <img
-src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ApparatusOnshape.png" width= "350"> </p>
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ApparatusOnshape.png" width= "500"> </p>
 <p align="center">
   Figure 1. The OnShape Drawing of the prototype.
 </p>
 <p align="center"> <img
-src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/FIlterDrawing.png" width= "350"> </p>
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/FIlterDrawing.png" width= "500"> </p>
 <p align="center">
   Figure 2. The part studio design of the 3D printed filter.
 </p>
 <p align="center"> <img
-src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ApparatusDrawing.png" width= "350"> </p>
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ApparatusDrawing.png" width= "500"> </p>
 <p align="center">
   Figure 3. The part studio design of the whole prototype.
 </p>
 <p align="center"> <img
-src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ApparatusReal.png" width= "500"> </p>
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ApparatusReal.png" width= "700"> </p>
 <p align="center">
   Figure 4. The apparatus setup with peristaltic pumps and tubing.
 </p>
@@ -54,7 +54,7 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Apparat
 
 The experiments up to this point have tested the filter's ability to form sand exclusion zones. Monroe suggested that the team simulate real life AguaClara filter conditions as best as possible. Therefore, it was designed so that the inlet, below the filter would simulate filtration. **[What are sand exclusion zones?Explain either in previous work/introduction]**
 
-The design also considered the rate at which injection and extraction would occur. Essentially, the respective injection and extraction rates were calculated based on backwash velocity and the respective design of the team's apparatus. This is calculated in the Python code in the [manual](#Manual) below. The values for the first trial were as follows:
+The design also considered the rate at which injection and extraction would occur. Aguaclara plant sand filters perform filtration by running water through and extracting from the sand bed at controlled rates. The respective injection and extraction rates were calculated based on backwash velocity and the respective design of the team's apparatus. This is calculated in the Python code in the [manual](#Manual) below. These rates were converted to RPM for the use of peristaltic pumps in ProCoDa, marked as inject and extract. The values for the first trial were as follows:
 | Injection Flow Rate     | Extraction Flow Rate
 |---------------------------|-----------------------|
 | 36.67 mL/s | 18.36 mL/s      |
@@ -63,7 +63,7 @@ The design also considered the rate at which injection and extraction would occu
 
 In the first trial, the team allowed the injection flow to fill the tube to the top before the extraction pump was turned on. The extraction would pull water until the prototype was halfway drained and then the extraction would be turned off again. This would allow gravity to act as the flow from above the filter, as well as the injection as the flow below.
 
-The last design consideration was converting between mL/s and RPM on the peristaltic pump that was connected to the inlet and outlet tubing. Using ProCoDa, the outlet and inlet flow in mL/s and the tubing sizes (16 for outlet and 18 for inlet), the team made new set points that converted into RPM values for the pump. More is detailed about the set points below in the [manual](#Manual).
+The last design consideration was converting between mL/s and RPM on the peristaltic pump that was connected to the inlet and outlet tubing. Using ProCoDa, the outlet and inlet flow in mL/s and the tubing sizes (16 for outlet and 18 for inlet), the team made new set points that converted into RPM values for the pump. More is detailed about the set points below in the [manual](#Manual). This was a design consideration for the team because the tubing size was adjusted in the apparatus based on the capacity of the peristaltic pump rates and calculations in ProCoDa.
 
 **[Why was this a design consideration? Which unit is more desirable?]**
 
@@ -76,13 +76,15 @@ In the design of the second experimental apparatus, the team reconsidered the fl
 | ------------------- | -------------------- |
 | 220.02 mL/s         | 36.67 mL/s           |
 
+After trial 1, the team came to understand that the 6 layers of sand filter would be extracting at the same rate. Therefore, the injection flow rate which the team was using before was not sufficiently large.
+
 Again, more information about these number can be found in the Python code below in the [manual](#Manual).
 
 The team used the same method of filling the prototype to the top before draining and turning off the extraction before the water level reached below the extraction tubes.
 
 ### Experimental Apparatus Fabrication
 #### Trial 1
-The current apparatus design was revisited. The team noted the small outlet pipe size and did the below calculation to determine that minimum pipe diameter was not met.
+In the previous semester, the team glued extraction tubes to the apparatus to begin to test design feasibility. Upon revisiting the idea, the team decided the outlet pipe size did not match a minimum inner diameter value.
 
 | Respective Flow Rate      | Minimum Tube Inner Diameter  
 |---------------------------|-----------------------|
@@ -91,11 +93,11 @@ The current apparatus design was revisited. The team noted the small outlet pipe
 <p align="center">
 Reference manual below for Python code calculations of these values. </p>
 
-**[After]** Shaving the glue from the previous tubes, the team detached the tubes. **[Glue was never mentioned before. You should clarify when and where it was used.]** Using the new calculated inner diameter, the team found tubing that ~~matched~~ met the minimum standard and considered ~~how it would affect~~ **[it's effect on]** the design of the 3D printed "pine-tree" filter which ~~was~~ already fit to the prototype PVC tube by **[drilled]** holes ~~drilled~~. In the OnShape drawing, the team determined that, if the filter was taken from the prototype, respective sized holes could be drilled with the drill press. The holes were designed to be offset from the original holes while still remaining in the bounds of the upper and lower wings. Holes were drilled to match these on the 4-Inch PVC prototype.
+To adjust the apparatus, after shaving the glue from the previous tubes, the team detached the tubes. **[Glue was never mentioned before. You should clarify when and where it was used.]** Using the new calculated inner diameter, the team found tubing that met the minimum standard and considered its effect on **[it's effect on]** the design of the 3D printed "pine-tree" filter which already fit to the prototype PVC tube by **[drilled]** drilled holes. In the OnShape drawing, the team determined that, if the filter was taken from the prototype, respective sized holes could be drilled with the drill press. The holes were designed to be offset from the original holes while still remaining in the bounds of the upper and lower wings. Holes were drilled to match these on the 4-Inch PVC prototype.
 
 With three new outlet tubes of sufficient diameter glued water-tight, the team used two T-joint push-to-connect tubes to attach the outlet to a peristaltic pump of size 16 tubing. The inlet (lower cap) was tapped with push-to-connect that was attached to size 18 tubing in a peristaltic pump.
 
-The team made the mistake of filling the apparatus with sand and then inverting so that exclusion zones were given no real chance to form.
+The team made the mistake of filling the apparatus with sand and then inverting so that exclusion zones could no longer form. The colored sand was chosen to closely monitor the escape of sand from the outlet tubes, but the color dyed the water and the method was ineffective.
 
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/InvertedApparatus.png" width= "350"> </p>
