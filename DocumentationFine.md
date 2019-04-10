@@ -33,7 +33,7 @@ from aguaclara.core import physchem as chem
 area = 100*u.cm**2
 areamm = area.to(u.mm**2)
 backwashvelocity = 11*u.mm/u.s
-filterflow = (backwashvelocity*areamm*2)/6
+filterflow = (backwashvelocity*areamm)/6
 print(filterflow.to(u.ml/u.s))
 
 headloss = 1*u.m
