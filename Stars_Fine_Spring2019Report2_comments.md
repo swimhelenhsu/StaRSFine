@@ -82,6 +82,8 @@ Again, more information about these number can be found in the Python code below
 
 The team used the same method of filling the prototype to the top before draining and turning off the extraction before the water level reached below the extraction tubes.
 
+#### Trial 3
+
 ### Experimental Apparatus Fabrication
 #### Trial 1
 In the previous semester, the team glued extraction tubes to the apparatus to begin to test design feasibility. Upon revisiting the idea, the team decided the outlet pipe size did not match a minimum inner diameter value.
@@ -117,6 +119,9 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Trial2W
 </p>
 
 Using newly calculated flow rates from the experimental design passage above, the apparatus was set up the same way as in the first trial, with detail in respect to the order of addition of sand and water. This also prevented the sand from entering the injection tubing because there was a constant water stream that made use of gravity exclusion. When the sand nearly filled the tube, the upper lid was secured and the extraction began.
+
+#### Trial 3
+
 
 ### Feasibility of Design and Analysis
 Before running the experiments, the team ensured that the prototype was watertight in order to collect accurate data regarding the flow rates of injection and extraction.
@@ -155,6 +160,17 @@ The top tube did not have any sand in it and the exclusion zones did exist, in a
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Trial2Tubes.png" width= "450"> </p>
 <p align="center">
   Figure 10. The extraction tubes during the second trial.
+</p>
+
+#### Trial 3
+In the third trial, the team discovered a very promising result for Aguaclara; the extraction pump could pull water out of one layer of the filter without sand in the output. The minimum failure velocity of the exclusion zones, although not yet found, should be greater than the maximum flow rate out of the filter in true Aguaclara plants.
+
+Although this information is exciting for the team, this trial did not use all three exclusion zones that it planned on. The optimized filter would pull water from all three of the outlet tubes.
+
+<p align="center"> <img
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ExclusionZonesTrial3.PNG" width= "450"> </p>
+<p align="center">
+  Figure 10. The exclusion zones during the third trial.
 </p>
 
 ## Conclusions
