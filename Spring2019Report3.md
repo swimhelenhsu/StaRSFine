@@ -83,6 +83,11 @@ Again, more information about these number can be found in the Python code below
 The team used the same method of filling the prototype to the top before draining and turning off the extraction before the water level reached below the extraction tubes.
 
 #### Trial 3
+After considering the second trial, the team revisited flow rates again. There was error in that the team did not include the flow rate through the filter would be divided by the 3 outlet holes. In the [manual](#Manual), the python for our third trial explains how this new flow rate was calculated.
+
+[**List flow rates**]
+
+In anticipation of failure, the team first decided to measure whether only one filter outlet could extract at the flow rate. To do so, the team planned on stopping flow from the upper two holes and attaching one pump to the injection tube one pump to the extraction tube.
 
 ### Experimental Apparatus Fabrication
 #### Trial 1
@@ -112,6 +117,8 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Inverte
 #### Trial 2
 In the second trial, the team drained the water and sand from the prototype. To better simulate plant conditions, Monroe suggested that the team first fill the prototype with water, and add sand from the top. This would create sand exclusion zones initially, that just needed to be maintained during water flow.
 
+Also, to disallow sand falling into the injection tube, the team added extremely porous metal mesh between the tube and the push-to-connect.
+
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Trial2Water.JPG" width= "350"> </p>
 <p align="center">
@@ -121,6 +128,15 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Trial2W
 Using newly calculated flow rates from the experimental design passage above, the apparatus was set up the same way as in the first trial, with detail in respect to the order of addition of sand and water. This also prevented the sand from entering the injection tubing because there was a constant water stream that made use of gravity exclusion. When the sand nearly filled the tube, the upper lid was secured and the extraction began.
 
 #### Trial 3
+This purpose of this trial was to test the feasibility of the intense newly calculated flow rate. Therefore, the team honed in on one filter wing outlet hole to analyze. To stop the flow from the upper two tubes, the team used plugs at the push-to-connects in lieu of pump tubing.
+
+The test was conducted in the same way as the earlier trials where the apparatus would be filled with water and sand before extraction. After beginning extraction, the injection flow would remain until the water level was close to the opening of the filter outlet hole.
+
+<p align="center"> <img
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Trial3SetUp.jpeg" width= "350"> </p>
+<p align="center">
+  Figure 7. Sand filling the apparatus before extraction.
+</p>
 
 
 ### Feasibility of Design and Analysis
@@ -135,13 +151,13 @@ This trial gave the team an indication of how to move on, but should be noted th
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Trial1Filter.jpg" width= "350"> </p>
 <p align="center">
-  Figure 7. The exclusion zone on the lower structure forming.
+  Figure 8. The exclusion zone on the lower structure forming.
 </p>
 
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Trial1Tubes.png" width= "350"> </p>
 <p align="center">
-  Figure 8. The extraction tubes pulling water without sand from the lower exclusion zone. Note the top tube was pulling sand from the most failed exclusion zone and the middle was pulling air.
+  Figure 9. The extraction tubes pulling water without sand from the lower exclusion zone. Note the top tube was pulling sand from the most failed exclusion zone and the middle was pulling air.
 </p>
 
 #### Trial 2
@@ -151,7 +167,7 @@ The biggest issue with the second trial was that only the top tube pulled water 
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Trial2Filter.JPG" width= "350"> </p>
 <p align="center">
-  Figure 9. The filter extraction zones during the second trial. Note the air bubbles in between the layers.
+  Figure 10. The filter extraction zones during the second trial. Note the air bubbles in between the layers.
 </p>
 
 The top tube did not have any sand in it and the exclusion zones did exist, in a sense which is an essential insight moving forward. This means that at least one of the gravity exclusion zones formed and was capable of operating at the necessary velocity without failure. In agreement with the first trial, the lowest of the three "branches" was successfully pulling water.
@@ -159,7 +175,7 @@ The top tube did not have any sand in it and the exclusion zones did exist, in a
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Trial2Tubes.png" width= "450"> </p>
 <p align="center">
-  Figure 10. The extraction tubes during the second trial.
+  Figure 11. The extraction tubes during the second trial.
 </p>
 
 #### Trial 3
@@ -170,15 +186,17 @@ Although this information is exciting for the team, this trial did not use all t
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ExclusionZonesTrial3.PNG" width= "450"> </p>
 <p align="center">
-  Figure 10. The exclusion zones during the third trial.
+  Figure 12. The exclusion zones during the third trial.
 </p>
+
+The difficult issue with air bubbles still persists, as the air bubbles existed in the upper two partitions that were plugged. The next move for the team would be to take steps to understand more about the pressure differential in the apparatus and determine a different way to extract from the filters. A persistent issue is the availability of pumps that can function at a rate as high as the team needs. Also, in the Aguaclara filters, it is not customary to have water being pulled from them, rather than just having it come out on its own at a rate determined by the rate of water going in.
 
 ## Conclusions
 
 Testing the apparatus with sand and water running at filtration speeds made the flaws in the apparatus used for experimentation clear, but not yet the problems with the "Christmas tree" design. The second trial showed that the top branch of the filter can handle high velocities of filtration without sand leaving in the outlet pipes, which is encouraging for predicting the success of this design.
 ## Future Work
-
-Based on the two trials completed so far this semester, the most pressing goal was to have an experiment where water was pulled from all three tubes. Now that this has been achieved, the team could move forward to testing failure and finding the filtration velocity where sand begins to be pulled out with the water. If this velocity is reasonably high (i.e. much higher than any velocity expected in an AguaClara plant), the team will have a conversation about next steps necessary to implement the design in actual AguaClara plants. If the failure velocity is low or gravity exclusion zones don't form dependably, the team will need to try other designs. Variations of the design may include more or less branches, bigger spaces between branches, or potentially a new design entirely.
+[**Must change**]
+**Based on the two trials completed so far this semester, the most pressing goal was to have an experiment where water was pulled from all three tubes. Now that this has been achieved, the team could move forward to testing failure and finding the filtration velocity where sand begins to be pulled out with the water. If this velocity is reasonably high (i.e. much higher than any velocity expected in an AguaClara plant), the team will have a conversation about next steps necessary to implement the design in actual AguaClara plants. If the failure velocity is low or gravity exclusion zones don't form dependably, the team will need to try other designs. Variations of the design may include more or less branches, bigger spaces between branches, or potentially a new design entirely.**
 
 **[As someone who is not familiar with this subteam I had a really hard time understanding what the terms were, and why certain things were done. I think you guys can do a much better job at fleshing out the report, specifically at the introduction and previous work so that people who aren't as well versed can follow along better. I know that expanding it may seem self-evident, even redundant, to you but everything is neat and organized in your head, having connections between certain subjects that the audience, such as me, may not have. Overall I liked the report. Where the writing lacked, the diagrams helped me get a general idea of what was going on, but the writing could definitely improve.]**
 
@@ -222,12 +240,16 @@ $diamtube$ : tube diameter
 
 
 ```Python
+#This code was used for trials 1 and 2
 import math
 import numpy as np
 import pandas as pd
 from aguaclara.core.units import unit_registry as u
 from aguaclara.core import pipes as pipe
-from aguaclara.core import physchem as chem
+from aguaclara.core import physchem as pc
+from aguaclara.core import utility as ut
+import aguaclara.design.floc as floc
+from aguaclara.research import floc_model as fm
 
 area = 100*u.cm**2
 #area of the filter bed for simulations
@@ -246,14 +268,32 @@ print(extractionflow.to(u.ml/u.s))
 headloss = 1*u.m
 Length = 1*u.m
 temp = 20*u.degC
-Nu = chem.viscosity_kinematic(temp)
+Nu = pc.viscosity_kinematic(temp)
 PipeRough = 0.1*u.mm
 KMinor = 2
 #to find the diameter of tube for the three tubes that will come out of our filter
 diamtube = chem.diam_pipe((filterflow/3), headloss, Length, Nu, PipeRough, KMinor)
 print(diamtube.to(u.mm)) #inner diameter of tube we would like to come out
 
+#The below code was revised for trial 3
+v_filtration = 11 * u.mm/u.s
+#this is the velocity we want to use for extraction of water during the filtration process
+N_outlets = 3
+#our apparatus has 3 outlet holes
+lengthfilter = 10 * u.cm
+#the filter has a general cross sectional area of 100
+Q_outlet = (v_filtration*lengthfilter**2/N_outlets).to(u.mL/u.s)
+print('The flow rate through one filter outlet is', ut.round_sf(Q_outlet,2))
+
+tubing18 = 3.8 * u.mL/u.revolution
+Maxspeed = 600 * u.revolution/u.min
+Q_pump_max = (Maxspeed * tubing18).to(u.mL/u.s)
+print('The max flow rate with one peristaltic pump is', ut.round_sf(Q_pump_max,2))
+#What is the max flow from a peristaltic pump with #18 tubing at 600 rpm?
 ```
 ## Onshape
 Link to the full design:
 https://cad.onshape.com/documents/2e536bd8940f20fc75058241/w/42817f17b88f823e779070ce/e/a78ef9a6ae52e13f92aed459?configuration=Angle%3D0.3839724354387525%2Bradian%3BList_NCIYbvAAUq0uK3%3DDefault%3BNumber%3D3.0%3BRadius%3D0.012700000000000001%2Bmeter%3BSpacing%3D0.01905%2Bmeter%3BThickness%3D0.0031750000000000003%2Bmeter%3Bdepth%3D0.10160000000000001%2Bmeter%3Blength%3D0.03429000000000001%2Bmeter
+
+## Materials List
+uh
