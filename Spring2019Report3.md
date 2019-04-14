@@ -87,7 +87,7 @@ After considering the second trial, the team revisited flow rates again. There w
 
 [**List flow rates**]
 
-In anticipation of failure, the team first decided to measure whether only one filter outlet could extract at the flow rate. To do so, the team planned on stopping flow from the upper two holes and attaching one pump to the injection tube one pump to the extraction tube.
+In anticipation of failure, the team first decided to measure whether only one filter outlet could extract at the flow rate. To do so, the team planned on stopping flow from the upper two holes and attaching one pump to the injection tube one pump to the extraction tube. Therefore, the apparatus was designed so that the team could monitor the extraction zone on and escape of sand into the outlet more closely.
 
 ### Experimental Apparatus Fabrication
 #### Trial 1
@@ -130,7 +130,7 @@ Using newly calculated flow rates from the experimental design passage above, th
 #### Trial 3
 This purpose of this trial was to test the feasibility of the intense newly calculated flow rate. Therefore, the team honed in on one filter wing outlet hole to analyze. To stop the flow from the upper two tubes, the team used plugs at the push-to-connects in lieu of pump tubing.
 
-The test was conducted in the same way as the earlier trials where the apparatus would be filled with water and sand before extraction. After beginning extraction, the injection flow would remain until the water level was close to the opening of the filter outlet hole.
+Other than the use of only one extraction hole, the test was conducted in the same way as the earlier trials where the apparatus would be filled with water and sand before extraction. After beginning extraction, the injection flow would remain until the water level was close to the opening of the filter outlet hole. The injection and extraction tubes were attached to two peristaltic pumps, set to their effective flow rates in RPM.
 
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Trial3SetUp.jpeg" width= "350"> </p>
@@ -181,7 +181,7 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Trial2T
 #### Trial 3
 In the third trial, the team discovered a very promising result for Aguaclara; the extraction pump could pull water out of one layer of the filter without sand in the output. The minimum failure velocity of the exclusion zones, although not yet found, should be greater than the maximum flow rate out of the filter in true Aguaclara plants.
 
-Although this information is exciting for the team, this trial did not use all three exclusion zones that it planned on. The optimized filter would pull water from all three of the outlet tubes.
+Although this information is exciting for the team, this trial did not use all three exclusion zones that the original design intended. The optimized filter would pull water from all three of the outlet tubes.
 
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ExclusionZonesTrial3.PNG" width= "450"> </p>
@@ -189,11 +189,14 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Exclusi
   Figure 12. The exclusion zones during the third trial.
 </p>
 
-The difficult issue with air bubbles still persists, as the air bubbles existed in the upper two partitions that were plugged. The next move for the team would be to take steps to understand more about the pressure differential in the apparatus and determine a different way to extract from the filters. A persistent issue is the availability of pumps that can function at a rate as high as the team needs. Also, in the Aguaclara filters, it is not customary to have water being pulled from them, rather than just having it come out on its own at a rate determined by the rate of water going in.
+The difficult issue with air bubbles still persists, as the air bubbles existed in the upper two partitions that were plugged. The next move for the team would be to take steps to understand more about the pressure differential in the apparatus and determine a different way to extract from the filters.
+
+Another persistent issue is the availability of pumps that can function at a rate as high as the team needs. Also, in the Aguaclara filters, it is not customary to have water deliberately pulled from filters, rather than just having it come out on its own at a rate determined by the rate of water going in.
 
 ## Conclusions
 
-Testing the apparatus with sand and water running at filtration speeds made the flaws in the apparatus used for experimentation clear, but not yet the problems with the "Christmas tree" design. The second trial showed that the top branch of the filter can handle high velocities of filtration without sand leaving in the outlet pipes, which is encouraging for predicting the success of this design.
+Testing the apparatus with sand and water running at filtration speeds made the flaws in the apparatus used for experimentation clear, but not yet the problems with the "Christmas tree" design. The second trial showed that the top branch of the filter can handle high velocities of filtration without sand leaving in the outlet pipes, which is encouraging for predicting the success of this design. The third trial stands to show the strength of the exclusion zones that are formed by this design. There is work to be done regarding optimizing this design and implementing in true Aguaclara plants, but the team is hopeful regarding its progress.
+
 ## Future Work
 [**Must change**]
 **Based on the two trials completed so far this semester, the most pressing goal was to have an experiment where water was pulled from all three tubes. Now that this has been achieved, the team could move forward to testing failure and finding the filtration velocity where sand begins to be pulled out with the water. If this velocity is reasonably high (i.e. much higher than any velocity expected in an AguaClara plant), the team will have a conversation about next steps necessary to implement the design in actual AguaClara plants. If the failure velocity is low or gravity exclusion zones don't form dependably, the team will need to try other designs. Variations of the design may include more or less branches, bigger spaces between branches, or potentially a new design entirely.**
