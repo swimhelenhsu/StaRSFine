@@ -1,10 +1,10 @@
 # StaRS FInE, Spring 2019
 #### Lily Falk, Sam Hertle, and Whitney Denison
-#### March 15, 2019
+#### April 14, 2019
 
 ## Abstract
 
-StaRS FInE has worked to develop an improved filter technology for AguaClara outlet pipes. Filtration is the last step in an AguaClara plant. As a result, it is the last opportunity to remove particles that have slipped through all previous treatment processes.
+StaRS FInE has worked to develop an improved filter technology for AguaClara outlet pipes.[**a bit redundant no? I would just choose either critical or important**] Filtration is the last step in an AguaClara plant[**Aren't all the steps important? Would consider the clause after "because" and go straight into the next sentence**]. As a result, it is the last opportunity to remove particles that have slipped through all previous treatment processes.
 Prior to StaRS FInE, the outtake pipes used in vertical filtration were problematic because small slits in the pipes would clog with chemical deposits. In order to clean the filters and wash away the deposits, clean water was emptied from the larger outlets to increase outflow velocity through the slots to dislodge the chemicals. In the process, clean water was wasted. StaRS FInE designed an alternative to the outtake pipes, triangular in shape, and therefore referred to as the “Christmas tree” design. The design relied on larger openings to prevent clogs, as well as the gravity exclusion principle to prevent sand from exiting the outlet pipes. The focus of StaRS FInE in the spring of 2019 was to test the three dimensional model printed in the fall of 2019 with sand to find what velocity leads to failure in the form of sand in the outlets.
 
 ## Introduction
@@ -92,9 +92,11 @@ Again, more information about these number can be found in the Python code below
 The team used the same method of filling the prototype to the top before draining and turning off the extraction before the water level reached below the extraction tubes.
 
 #### Trial 3
-After considering the second trial, the team again revisited the flow rates. The team had not considered that the flow rate through the filter would be divided by the 3 outlet holes, leading to some error. The Python code for the third trial in the [manual](#Manual) explains how the new flow rate was calculated.
+After considering the second trial, the team again revisited the flow rates. The team had not considered that the flow rate through the filter would be divided by the 3 outlet holes, leading to some error. Therefore, instead of extracting 36.67 mL/s from all three extraction tubes, each would be attached to a pump extracting at 36.67 mL/s. The Python code for the third trial in the [manual](#Manual) explains how the new flow rate was calculated.
 
-[**List flow rates**]
+| Injection Flow Rate | Extraction Flow Rate |
+| ------------------- | -------------------- |
+| 220.02 mL/s         | 36.67 mL/s           |
 
 In anticipation of failure, the team first decided to measure whether only one filter outlet could extract at the flow rate. To do so, the team planned on stopping flow from the upper two holes and attaching one pump to the injection tube one pump to the extraction tube. Therefore, the apparatus was designed so that the team could monitor the extraction zone and escape of sand into the outlet more closely.
 
@@ -207,8 +209,7 @@ Another persistent issue is the availability of pumps that can function at a rat
 Testing the apparatus with sand and water running at filtration speeds made the flaws in the apparatus used for experimentation clear, but not yet the problems with the "Christmas tree" design. The second trial showed that the top branch of the filter can handle high velocities of filtration without sand leaving in the outlet pipes, which is encouraging for predicting the success of this design. The third trial stands to show the strength of the exclusion zones that are formed by this design. There is work to be done regarding optimizing this design and implementing in true Aguaclara plants, but the team is hopeful regarding its progress.
 
 ## Future Work
-[**Must change**]
-**Based on the two trials completed so far this semester, the most pressing goal was to have an experiment where water was pulled from all three tubes. Now that this has been achieved, the team could move forward to testing failure and finding the filtration velocity where sand begins to be pulled out with the water. If this velocity is reasonably high (i.e. much higher than any velocity expected in an AguaClara plant), the team will have a conversation about next steps necessary to implement the design in actual AguaClara plants. If the failure velocity is low or gravity exclusion zones don't form dependably, the team will need to try other designs. Variations of the design may include more or less branches, bigger spaces between branches, or potentially a new design entirely.**
+Based on the three trials completed so far this semester, the most pressing goal was to have an experiment where water was pulled from all three tubes. With consideration of plant limitations, the team could move forward to testing failure and finding the filtration velocity where sand begins to be pulled out with the water. If this velocity is reasonably high (i.e. much higher than any velocity expected in an AguaClara plant), the team will have a conversation about next steps necessary to implement the design in actual AguaClara plants. If the failure velocity is low or gravity exclusion zones don't form dependably, the team will need to try other designs. Variations of the design may include more or less branches, bigger spaces between branches, or potentially a new design entirely. The next trial would utilize the filter without extraction pumping, and hopefully begin to combat the issue with air and pressure differential.
 
 **[As someone who is not familiar with this subteam I had a really hard time understanding what the terms were, and why certain things were done. I think you guys can do a much better job at fleshing out the report, specifically at the introduction and previous work so that people who aren't as well versed can follow along better. I know that expanding it may seem self-evident, even redundant, to you but everything is neat and organized in your head, having connections between certain subjects that the audience, such as me, may not have. Overall I liked the report. Where the writing lacked, the diagrams helped me get a general idea of what was going on, but the writing could definitely improve.]**
 
@@ -308,10 +309,11 @@ Link to the full design:
 https://cad.onshape.com/documents/2e536bd8940f20fc75058241/w/42817f17b88f823e779070ce/e/a78ef9a6ae52e13f92aed459?configuration=Angle%3D0.3839724354387525%2Bradian%3BList_NCIYbvAAUq0uK3%3DDefault%3BNumber%3D3.0%3BRadius%3D0.012700000000000001%2Bmeter%3BSpacing%3D0.01905%2Bmeter%3BThickness%3D0.0031750000000000003%2Bmeter%3Bdepth%3D0.10160000000000001%2Bmeter%3Blength%3D0.03429000000000001%2Bmeter
 
 ## Materials List
-* 4-inch PVC pipe
-* 3-D printed "Chrismas tree"
-* Sand
-* Sater
-* Tubing
-* Pumps
-* Glue
+* 4-inch PVC pipe (obtained from available lab materials)
+* 3-D printed "Chrismas tree" (printed by Paul)
+* Sand (obtained from available lab materials)
+* Water from tap
+* Peristaltic pump Tubing,size 18 (available in lab)
+* Tubing used in apparatus (available lab materials)
+* Peristaltic Pumps 100-600 RPM
+* PVC Glue
