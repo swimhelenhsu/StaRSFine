@@ -4,27 +4,24 @@
 
 ## Abstract
 
-StaRS FInE has worked to develop an improved filter technology for AguaClara outlet pipes.[**a bit redundant no? I would just choose either critical or important**] Filtration is the last step in an AguaClara plant[**Aren't all the steps important? Would consider the clause after "because" and go straight into the next sentence**]. As a result, it is the last opportunity to remove particles that have slipped through all previous treatment processes.
+StaRS FInE has worked to develop an improved filter technology for AguaClara outlet pipes.Filtration is the last step in an AguaClara plant. As a result, it is the last opportunity to remove particles that have slipped through all previous treatment processes.
 Prior to StaRS FInE, the outtake pipes used in vertical filtration were problematic because small slits in the pipes would clog with chemical deposits. In order to clean the filters and wash away the deposits, clean water was emptied from the larger outlets to increase outflow velocity through the slots to dislodge the chemicals. In the process, clean water was wasted. StaRS FInE designed an alternative to the outtake pipes, triangular in shape, and therefore referred to as the “Christmas tree” design. The design relied on larger openings to prevent clogs, as well as the gravity exclusion principle to prevent sand from exiting the outlet pipes. The focus of StaRS FInE in the spring of 2019 was to test the three dimensional model printed in the fall of 2019 with sand to find what velocity leads to failure in the form of sand in the outlets.
 
 ## Introduction
 
-The spring of 2019 was StaRS FInE's second semester working on recent improvements since being disbanded in the fall of 2015. The subteam was brought back in the fall of 2018 because of its continued relevance to AguaClara plants. The filter system used then became clogged throughout the day with chemical deposits, [**which chemicals? PaCl?**] mostly from PaCl, but [**but**] there was no sustainable solution to the clogging. Chemical deposits built up on the small slots of the filters, and the plant had to be temporarily shut off periodically for cleaning. During this cleaning (not to be confused with backwash, where the sand particles in the filter are cleaned), clean water would be purged to dislodge the build up on the pipes. Alternatively, buckets of acid could be poured into the filter to clean them, which was also not ideal. In both of these scenarios, the filter could not be used while it was cleaned, and clean water was wasted, whether it was being used to purge the pipe or to divert water from the filters while they were being cleaned with acid. The goal of StaRS FInE was to develop and test an outlet system that prevented sand from escaping and did not clog with chemical deposits. Past teams failed because of issues with sand getting into their outlet pipes during filtration. The past team did develop designs that worked during backwash, however the filtration velocity was too large for the parameters of their design and the water effluent contained a significant amount of sand. Because this problem occurred at the filtration outtake, the team was very conscious of head loss and the major and minor losses coming from the outlet pipe and the design geometry.
+The spring of 2019 was StaRS FInE's second semester working on recent improvements since being disbanded in the fall of 2015. The subteam was brought back in the fall of 2018 because of its continued relevance to AguaClara plants. The filter system used then became clogged throughout the day with chemical deposits, mostly from PaCl, but there was no sustainable solution to the clogging **[do you mean there was not a sustainable solution?]** . Chemical deposits built up on the small slots of the filters, and the plant had to be temporarily shut off periodically for cleaning. During this cleaning (not to be confused with backwash, where the sand particles in the filter are cleaned), clean water would be purged to dislodge the build up on the pipes. Alternatively, buckets of acid could be poured into the filter to clean them, which was also not ideal. In both of these scenarios, the filter could not be used while it was cleaned, and clean water was wasted, whether it was being used to purge the pipe or to divert water from the filters while they were being cleaned with acid. The goal of StaRS FInE was to develop and test an outlet system that prevented sand from escaping and did not clog with chemical deposits. Past teams failed because of issues with sand getting into their outlet pipes during filtration. The past team did develop designs that worked during backwash, however the filtration velocity was too large for the parameters of their design and the water effluent contained a significant amount of sand. Because this problem occurred at the filtration outtake, the team was very conscious of head loss and the major and minor losses coming from the outlet pipe and the design geometry.
 
 The goals for the spring of 2019 were to test the apparatus (designed and 3D printed in the Fall 2018) with sand, discover the failure velocity for this apparatus, and make changes to the spacing of the branches and angles if necessary. The original spacing and angles were based on some of the research of Horizontal Filtration (another AguaClara subteam), the results of testing by past StaRS teams, and the library of AguaClara fluid mechanics calculations. The team also had to discover the possible modes of failure. Failure modes may be caused by flow that is too fast, which may lead to sand moving up as a solid plug or small grains of sand getting into the outlet pipe. Fall 2018's design was promising, but before it was ready to be proposed as a solution, many more tests had to be run.
 
-**[Include and explain gravity exclusion/sand exclusion zones]**
 Gravity exclusion is a principle that explains some interaction between sand and water that informs the research and fabrication of StaRS FInE. The idea is that for two flat surfaces (branches) creating a roof with a specific angle, if sand were to get beneath the branch, it would slide down with gravity and remain outside of the outlet. The water beneath the branches creates enough pressure that the sand remains out of the outlet pipe and in the gravity exclusion zone. This zone is formed by the sand that settles beneath the branches. The biggest challenge with preventing sand from going into the outlet happens during forward filtration, when water is moving quickly through the outlet. In this case, the sand-water interface at the edge of the exclusion zone must be large enough that the force of gravity on the sand is greater than the force of the water moving up through the sand.
 
 ## Literature Review and Previous Work
 
-The work of StaRS FInE has not been investigated outside of AguaClara, **[,]** making the project exciting, ~~and~~ requiring innovation on the part of each team member. In the past, **[,]** the team has found examples related to filters from aquaponics and various filtering methods. That being said, the alternate systems are more complicated, and would have encountered the same issues that AguaClara filters had already faced. The StaRS FInE team members remained the same from the fall of 2018 to the spring of 2019. That being said, the team focused on research in the fall, whereas the team shifted to fabrication in the spring.
+The work of StaRS FInE has not been investigated outside of AguaClara, making the project exciting, requiring innovation on the part of each team member. In the past, the team has found examples related to filters from aquaponics and various filtering methods. That being said, the alternate systems are more complicated, and would have encountered the same issues that AguaClara filters had already faced. The StaRS FInE team members remained the same from the fall of 2018 to the spring of 2019. That being said,**[second time that being said is used in this paragraph, be careful and try for more professional usage and technical writing]** the team focused on research in the fall, whereas the team shifted to fabrication in the spring.
 
-**[What are the other insights?? The last paragraph seems disconnected from the paragraph before it. What happened in the 2015 team?]**
+From the reports of the 2015 team, it seems that the necessary wingspan and size of the sand-water interface was not calculated correctly **[be more sure, is it a conclusion that was drawn? Seems seem a bit more iffy]**. This is supported by their lack of success with keeping sand from exiting the filter during higher forward filtration velocities. The size of the spring of 2019's model interface is much larger and there has been greater success in keeping sand out of the outlets.
 
-From the reports of the 2015 team, it seems that the necessary wingspan and size of the sand-water interface was not calculated correctly. This is supported by their lack of success with keeping sand from exiting the filter during higher forward filtration velocities. The size of the spring of 2019's model interface is much larger and there has been greater success in keeping sand out of the outlets.
-
-In the fall of 2018 the team discovered **["discovered" may be more fitting]** a few key insights. First, the team tested the **[the]** angle at which **[at which]** sand falls in a pipe filled with water to determine an optimal angle where sand escaping the gravity exclusion zone is still likely to fall back down. The optimal angle was determined to be 26.64 degrees.  
+In the fall of 2018 the team discovered  a few key insights. First, the team tested the angle at which sand falls in a pipe filled with water to determine an optimal angle where sand escaping the gravity exclusion zone is still likely to fall back down. The optimal angle was determined to be 26.64 degrees.  
 
 From the calculations done with the AguaClara fluid calculation Python code library, a "Christmas tree" design was created in OnShape and 3D printed to fit inside of a 4-inch tube. Unlike previous teams dating back to 2015, the fall 2018 team ensured that the flow rate, velocity, and wing area of the apparatus all work together to prevent sand from exiting during backwash. This apparatus is still being used this semester as a main tool for research.
 
@@ -35,9 +32,9 @@ From the calculations done with the AguaClara fluid calculation Python code libr
 ### Experimental Apparatus Design
 #### Trial 1
 
-The apparatus was designed in OnShape last semester, first including a 3D-printed horizontal filter, and then a **[a]** 4-Inch diameter PVC pipe that would **[would]** become the prototype for StaRS FInE testing of the gravity exclusion method for extraction. For more information on this apparatus **[apparatus]**, reference the Fall 2018 Report. Below are the OnShape part studio, the OnShape drawings, and the photo of the newly fabricated apparatus. After assembling the apparatus, it was designed to have outlet holes in the filter and in the prototype that match tubing size for the outlet flow rate.
+The apparatus was designed in OnShape last semester, first including a 3D-printed horizontal filter, and then a 4-Inch diameter PVC pipe that would become the prototype for StaRS FInE testing of the gravity exclusion method for extraction. For more information on this apparatus, reference the Fall 2018 Report. Below are the OnShape part studio, the OnShape drawings, and the photo of the newly fabricated apparatus. After assembling the apparatus, it was designed to have outlet holes in the filter and in the prototype that match tubing size for the outlet flow rate.
 
-**[What is gravity exclusion method? This was not explained in the intro]**-*see above*
+-*see above*
 <p align="center"> <img
 src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ApparatusOnshape.png" width= "500"> </p>
 <p align="center">
@@ -59,27 +56,24 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Apparat
   Figure 4. The apparatus setup with peristaltic pumps and tubing.
 </p>
 
-**[Any way to get these photos bigger? They are pretty but hard to see in the report. ]**
 
-The experiments up to trial 1 had tested the filter's ability to form sand exclusion zones. Monroe suggested that the team simulate real life AguaClara filter conditions as best as possible. Therefore, it was designed so that the inlet, below the filter would simulate filtration. **[What are sand exclusion zones?Explain either in previous work/introduction]**
+
+The experiments up to trial 1 had tested the filter's ability to form sand exclusion zones. Monroe suggested that the team simulate real life AguaClara filter conditions as best as possible. Therefore, it was designed so that the inlet, below the filter would simulate filtration. 
 
 The design also considered the rate at which injection and extraction would occur. AguaClara plant sand filters perform filtration by running water through and extracting from the sand bed at controlled rates. The respective injection and extraction rates were calculated based on backwash velocity and the respective design of the team's apparatus. This is calculated in the Python code in the [manual](#Manual) below. These rates were converted to RPM for the use of peristaltic pumps in ProCoDa, marked as inject and extract. The values for the first trial were as follows:
 | Injection Flow Rate     | Extraction Flow Rate
 |---------------------------|-----------------------|
 | 36.67 mL/s | 18.36 mL/s      |
 
-**[What is injection flow? What is extraction flow? Is it just inlet and outlet?]**
 
 In the first trial, the team allowed the injection flow (inlet) to fill the tube to the top before the extraction pump (outlet) was turned on. The extraction pump pulled water until the prototype was halfway drained and then the extraction pump would turn off again. At this point, gravity made injection from the top of the apparatus unnecessary and acted as an "injection" source.
 
 The last design consideration was converting between mL/s and RPM on the peristaltic pump that was connected to the inlet and outlet tubing. The team made new set points that converted to RPM values for the pump using ProCoDa, the outlet and inlet flow in mL/s and the tubing sizes (16 for outlet and 18 for inlet). More is detailed about the set points below in the [manual](#Manual). This was a design consideration for the team because the tubing size was adjusted in the apparatus based on the capacity of the peristaltic pump rates and calculations in ProCoDa.
 
-**[Why was this a design consideration? Which unit is more desirable?]**
 
 #### Trial 2
 In the design of the second experimental apparatus, the team reconsidered the flow rates of injection and extraction pumps. Understanding more about the application of the prototype to real Aguaclara Filters, the team calculated the following:
 
-**[How did trial 2 resemble real AguaClara Filters more than trial 1?]**
 
 | Injection Flow Rate | Extraction Flow Rate |
 | ------------------- | -------------------- |
@@ -87,7 +81,7 @@ In the design of the second experimental apparatus, the team reconsidered the fl
 
 After trial 1, the team came to understand that the 6 layers of sand filter would be extracting at the same rate. Therefore, the injection flow rate that the team had used previously was not sufficiently large.
 
-Again, more information about these number can be found in the Python code below in the [manual](#Manual).
+Again, more information about these number can be found in the Python code below in the [manual](#Manual). **[remember to write more technically]**
 
 The team used the same method of filling the prototype to the top before draining and turning off the extraction before the water level reached below the extraction tubes.
 
@@ -111,7 +105,7 @@ In the previous semester, the team glued extraction tubes to the apparatus to be
 <p align="center">
 Reference manual below for Python code calculations of these values. </p>
 
-Glue had been used to connect the outlet "pipes" (tubing) to the reactor (the 4-inch diameter PVC pipe). To adjust the apparatus, after shaving the glue from the previous tubes, the team detached the tubes. **[Glue was never mentioned before. You should clarify when and where it was used.]** Using the new calculated inner diameter, the team found tubing that met the minimum standard and considered it's effect on **[it's effect on]** the design of the 3D printed "pine-tree" filter which already fit to the prototype PVC tube by **[drilled]** drilled holes. In the OnShape drawing, the team determined that if the filter was taken from the prototype, respective sized holes could be drilled with the drill press. The holes were designed to be offset from the original holes while still remaining in the bounds of the upper and lower wings. Holes were drilled to match these on the 4-Inch PVC prototype.
+Glue had been used to connect the outlet "pipes" (tubing) to the reactor (the 4-inch diameter PVC pipe). To adjust the apparatus, after shaving the glue from the previous tubes, the team detached the tubes. * Using the new calculated inner diameter, the team found tubing that met the minimum standard and considered it's effect on the design of the 3D printed "pine-tree" filter which already fit to the prototype PVC tube by drilled holes. In the OnShape drawing, the team determined that if the filter was taken from the prototype, respective sized holes could be drilled with the drill press. The holes were designed to be offset from the original holes while still remaining in the bounds of the upper and lower wings. Holes were drilled to match these on the 4-Inch PVC prototype.
 
 With three new outlet tubes of sufficient diameter glued water-tight, the team used two T-joint push-to-connect tubes to attach the outlet to a peristaltic pump of size 16 tubing. The inlet (lower cap) was tapped with push-to-connect that was attached to size 18 tubing in a peristaltic pump.
 
@@ -123,10 +117,10 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Inverte
   Figure 5. The colored sand filling the exclusion zones as the apparatus was inverted.
 </p>
 
-**[Why was the sand colored?]**
+
 
 #### Trial 2
-In the second trial, the team drained the water and sand from the prototype. To better simulate plant conditions, Monroe suggested that the team first fill the prototype with water, and add sand from the top. This would create sand exclusion zones initially, that just needed to be maintained during water flow.
+In the second trial, the team drained the water and sand from the prototype. To better simulate plant conditions, Monroe suggested that the team first fill the prototype with water, and add sand from the top. This would create sand exclusion zones initially, that just needed to be maintained during water flow.**[what just needed to be maintained, the way the sentence was structured made me confused a bit]**
 
 Also, to prevent sand from falling into the injection tube, the team added extremely porous metal mesh between the tube and the push-to-connect.
 
