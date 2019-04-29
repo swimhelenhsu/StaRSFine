@@ -97,6 +97,18 @@ After considering the second trial, the team again revisited the flow rates. The
 | 220.02 mL/s         | 36.67 mL/s           |
 
 In anticipation of failure, the team first decided to measure whether only one filter outlet could extract at the flow rate. To do so, the team planned on stopping flow from the upper two holes and attaching one pump to the injection tube one pump to the extraction tube. Therefore, the apparatus was designed so that the team could monitor the extraction zone and escape of sand into the outlet more closely.
+#### Trial 4
+#### Trial 5
+#### Trial 6
+The main goal for the sixth trial was to generate a system in which the extraction holes and filter were all submerged under water. This task was difficult for the team because there were no longer extraction tubes and it could not simply be submerged in water because of the sand and the need to regulate how much water was coming out.
+
+Creatively, the team thought of a small apparatus that would be added on to the current apparatus. It would be some kind of cup or box that would surround the extraction holes to be filled with water. Although it would be open at the top to the atmosphere for water to flow out, this technically would submerge the filter system with water.
+
+<p align="center"> <img
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Onshape6.png" width= "700"> </p>
+<p align="center">
+  Figure . The team's idea to enclose the filter holes; the shape here would be closed on the bottom and allow water to spill over the top.
+</p>
 
 ### Experimental Apparatus Fabrication
 #### Trial 1
@@ -146,7 +158,18 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Trial3S
 <p align="center">
   Figure 7. Sand filling the apparatus before extraction.
 </p>
+#### Trial 4
+#### Trial 5
+#### Trial 6
+To fabricate the cup shape that would generate the submerged system the team hoped, a 125 mL Nalgene sample bottle was cut in half to fit the side of the current apparatus and curved to generate a water-tight shape using the precision drill. The narrow top part of the bottle was also cut so that water could spill over the top. The team considered that the cup would have to cover all three of the outlet holes in choosing the use the bottle.
 
+Using PVC-glue, the team secured the bottle half to the apparatus and tested for water-tightness before conducting experiments with it.
+
+<p align="center"> <img
+src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Apparatus%20Design%206.jpeg" width= "500"> </p>
+<p align="center">
+  Figure . The apparatus with the designed half-cup being glued; note the open top and enclosed bottom to be filled with water during the trial.
+</p>
 
 ### Feasibility of Design and Analysis
 Before running the experiments, the team ensured that the prototype was watertight in order to collect accurate data regarding the flow rates of injection and extraction.
@@ -201,6 +224,13 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Exclusi
 The difficult issue with air bubbles caused the use of not all extraction tubes, as the air bubbles existed in the upper two partitions that were plugged. The next move for the team would be to take steps to understand more about the pressure differential in the apparatus and determine a different way to extract from the filters.
 
 Another persistent issue is the availability of pumps that can function at a rate as high as the team needs. Also, in the Aguaclara filters, it is not customary to have water deliberately pulled from filters, rather than just having it come out on its own at a rate determined by the rate of water going in.
+#### Trial 4
+#### Trial 5
+#### Trial 6
+
+https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/CupFlow.jpeg
+
+https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/ExtractioZones6.jpeg
 
 ## Conclusions
 
