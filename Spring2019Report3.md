@@ -59,7 +59,7 @@ src="https://raw.githubusercontent.com/AguaClara/StaRSFine/master/Images/Apparat
   Figure 4. The apparatus setup with peristaltic pumps and tubing.
 </p>
 
-**[Any way to get these photos bigger? They are pretty but hard to see in the report. ]**
+**[Helen: Any way to get these photos bigger? They are pretty but hard to see in the report. ]**
 
 The experiments up to trial 1 had tested the filter's ability to form sand exclusion zones. Monroe suggested that the team simulate real life AguaClara filter conditions as best as possible. Therefore, it was designed so that the inlet, below the filter would simulate filtration. **[What are sand exclusion zones?Explain either in previous work/introduction]**
 
